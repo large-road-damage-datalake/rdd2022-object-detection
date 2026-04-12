@@ -268,27 +268,27 @@
     "countries": [
       {
         "name": "China",
-        "image_count": 4378
+        "image_count": 4878
       },
       {
         "name": "Czech Republic",
-        "image_count": 2829
+        "image_count": 3538
       },
       {
         "name": "India",
-        "image_count": 7706
+        "image_count": 9665
       },
       {
         "name": "Japan",
-        "image_count": 10506
+        "image_count": 13133
       },
       {
         "name": "Norway",
-        "image_count": 8161
+        "image_count": 10201
       },
       {
         "name": "United States",
-        "image_count": 4805
+        "image_count": 6005
       }
     ],
     "temporal_scope": "Published 2022"
