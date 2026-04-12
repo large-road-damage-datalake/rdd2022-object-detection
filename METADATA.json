@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "basic_info": {
     "id": "rdd2022-object-detection",
-    "name": "RDD2022 Object Detection",
+    "name": "RDD2022",
     "short_name": "rdd2022-od",
     "description": "Object detection packaging of RDD2022, a multi-national road damage dataset released through CRDDC 2022.",
     "year": 2022
