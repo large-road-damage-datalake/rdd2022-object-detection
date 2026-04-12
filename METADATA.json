@@ -25,7 +25,10 @@
       "D44",
       "D50",
       "Repair"
-    ]
+    ],
+    "task_classification": {
+      "primary_task": "object_detection"
+    }
   },
   "imaging_setup": {
     "camera": "Crowdsensed smartphone and vehicle-mounted images",
@@ -123,6 +126,9 @@
     "n_annotations": 65712,
     "n_images_with_annotations": 26661,
     "average_annotations_per_image": 1.3857444116406579,
+    "dataset_size": "12.88 GB",
+    "dataset_size_bytes": 13832475879,
+    "dataset_file_count": 85805,
     "image_format": "voc",
     "class_distribution": {
       "D10": 11830,
@@ -143,79 +149,118 @@
         "n_images": 2401,
         "percentage": 0.05,
         "n_images_with_annotations": 2396,
-        "annotation_coverage": 0.9979
+        "annotation_coverage": 0.9979,
+        "dataset_size": "161.69 MB",
+        "dataset_size_bytes": 169548077,
+        "dataset_file_count": 4802
       },
       "china_motorbike_train": {
         "n_images": 1977,
         "percentage": 0.04,
         "n_images_with_annotations": 1977,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "147.30 MB",
+        "dataset_size_bytes": 154458628,
+        "dataset_file_count": 3954
       },
       "china_motorbike_test": {
         "n_images": 500,
         "percentage": 0.01,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "37.15 MB",
+        "dataset_size_bytes": 38953343,
+        "dataset_file_count": 500
       },
       "czech_train": {
         "n_images": 2829,
         "percentage": 0.06,
         "n_images_with_annotations": 1072,
-        "annotation_coverage": 0.3789
+        "annotation_coverage": 0.3789,
+        "dataset_size": "196.31 MB",
+        "dataset_size_bytes": 205844599,
+        "dataset_file_count": 5658
       },
       "czech_test": {
         "n_images": 709,
         "percentage": 0.01,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "48.91 MB",
+        "dataset_size_bytes": 51289399,
+        "dataset_file_count": 709
       },
       "india_train": {
         "n_images": 7706,
         "percentage": 0.16,
         "n_images_with_annotations": 3785,
-        "annotation_coverage": 0.4912
+        "annotation_coverage": 0.4912,
+        "dataset_size": "498.72 MB",
+        "dataset_size_bytes": 522941840,
+        "dataset_file_count": 15412
       },
       "india_test": {
         "n_images": 1959,
         "percentage": 0.04,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "126.62 MB",
+        "dataset_size_bytes": 132775501,
+        "dataset_file_count": 1959
       },
       "japan_train": {
         "n_images": 10506,
         "percentage": 0.22,
         "n_images_with_annotations": 9712,
-        "annotation_coverage": 0.9244
+        "annotation_coverage": 0.9244,
+        "dataset_size": "819.96 MB",
+        "dataset_size_bytes": 859794763,
+        "dataset_file_count": 21012
       },
       "japan_test": {
         "n_images": 2627,
         "percentage": 0.06,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "207.65 MB",
+        "dataset_size_bytes": 217738423,
+        "dataset_file_count": 2627
       },
       "norway_train": {
         "n_images": 8161,
         "percentage": 0.17,
         "n_images_with_annotations": 2914,
-        "annotation_coverage": 0.3571
+        "annotation_coverage": 0.3571,
+        "dataset_size": "8.21 GB",
+        "dataset_size_bytes": 8820718572,
+        "dataset_file_count": 16322
       },
       "norway_test": {
         "n_images": 2040,
         "percentage": 0.04,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "2.06 GB",
+        "dataset_size_bytes": 2207384233,
+        "dataset_file_count": 2040
       },
       "united_states_train": {
         "n_images": 4805,
         "percentage": 0.1,
         "n_images_with_annotations": 4805,
-        "annotation_coverage": 1.0
+        "annotation_coverage": 1.0,
+        "dataset_size": "345.09 MB",
+        "dataset_size_bytes": 361848622,
+        "dataset_file_count": 9610
       },
       "united_states_test": {
         "n_images": 1200,
         "percentage": 0.03,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0
+        "annotation_coverage": 0.0,
+        "dataset_size": "85.05 MB",
+        "dataset_size_bytes": 89179879,
+        "dataset_file_count": 1200
       }
     }
   },
