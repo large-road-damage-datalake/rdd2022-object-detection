@@ -12,4 +12,4 @@
 ## Notes
 
 - This package uses local RDD2022 train annotations in VOC format.
-- Test images are not annotated and are excluded from statistics.
+- Test images are not annotated and are included in image-level statistics with zero annotations.

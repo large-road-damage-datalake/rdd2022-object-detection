@@ -1,0 +1,186 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001532.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 15,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_01_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000151.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 14,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_02_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001610.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 14,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_03_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000801.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 13,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_04_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000419.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 13,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_05_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001059.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 13,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_06_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001611.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 12,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_07_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001424.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 12,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_08_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001965.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 12,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_09_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000296.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 5,
+      "objects": 11,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_10_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

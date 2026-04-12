@@ -1,0 +1,54 @@
+{
+  "generated": true,
+  "dir": "visualizations/spatial_heatmaps",
+  "classes": [
+    {
+      "class": "D00",
+      "file": "visualizations/spatial_heatmaps/D00.png"
+    },
+    {
+      "class": "D10",
+      "file": "visualizations/spatial_heatmaps/D10.png"
+    },
+    {
+      "class": "D20",
+      "file": "visualizations/spatial_heatmaps/D20.png"
+    },
+    {
+      "class": "D40",
+      "file": "visualizations/spatial_heatmaps/D40.png"
+    },
+    {
+      "class": "D44",
+      "file": "visualizations/spatial_heatmaps/D44.png"
+    },
+    {
+      "class": "D50",
+      "file": "visualizations/spatial_heatmaps/D50.png"
+    },
+    {
+      "class": "Repair",
+      "file": "visualizations/spatial_heatmaps/Repair.png"
+    },
+    {
+      "class": "D43",
+      "file": "visualizations/spatial_heatmaps/D43.png"
+    },
+    {
+      "class": "D01",
+      "file": "visualizations/spatial_heatmaps/D01.png"
+    },
+    {
+      "class": "D11",
+      "file": "visualizations/spatial_heatmaps/D11.png"
+    },
+    {
+      "class": "Block crack",
+      "file": "visualizations/spatial_heatmaps/Block_crack.png"
+    },
+    {
+      "class": "D0w0",
+      "file": "visualizations/spatial_heatmaps/D0w0.png"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000882.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "Repair"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_01_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c2_D00-D11.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_000078.jpg",
+      "classes": [
+        "D00",
+        "D11"
+      ],
+      "num_classes": 2,
+      "objects": 4,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c2_D00-D11_annotated.png",
+      "annotation_file": "annotations/sample_02_c2_D00-D11_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c1_D01.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_000821.jpg",
+      "classes": [
+        "D01"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c1_D01_annotated.png",
+      "annotation_file": "annotations/sample_03_c1_D01_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c2_D43-D50.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_003231.jpg",
+      "classes": [
+        "D43",
+        "D50"
+      ],
+      "num_classes": 2,
+      "objects": 2,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c2_D43-D50_annotated.png",
+      "annotation_file": "annotations/sample_04_c2_D43-D50_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c5_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_000277.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D44",
+        "D50"
+      ],
+      "num_classes": 5,
+      "objects": 8,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c5_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_05_c5_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c1_D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/United_States/train/images\\United_States_003995.jpg",
+      "classes": [
+        "D20"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c1_D20_annotated.png",
+      "annotation_file": "annotations/sample_06_c1_D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c3_D00-D10-Repair.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000319.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "Repair"
+      ],
+      "num_classes": 3,
+      "objects": 7,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c3_D00-D10-Repair_annotated.png",
+      "annotation_file": "annotations/sample_07_c3_D00-D10-Repair_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_D0w0.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_006389.jpg",
+      "classes": [
+        "D0w0"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c1_D0w0_annotated.png",
+      "annotation_file": "annotations/sample_08_c1_D0w0_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c2_D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_001808.jpg",
+      "classes": [
+        "D10",
+        "D20"
+      ],
+      "num_classes": 2,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c2_D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_09_c2_D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c3_Block_crack-D00-D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_000835.jpg",
+      "classes": [
+        "Block crack",
+        "D00",
+        "D10"
+      ],
+      "num_classes": 3,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c3_Block_crack-D00-D10_annotated.png",
+      "annotation_file": "annotations/sample_10_c3_Block_crack-D00-D10_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

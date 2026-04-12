@@ -1,0 +1,176 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_004398.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 9,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_01_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_002404.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 8,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_02_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c4_D00-D01-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_005421.jpg",
+      "classes": [
+        "D00",
+        "D01",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 7,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c4_D00-D01-D40_annotated.png",
+      "annotation_file": "annotations/sample_03_c4_D00-D01-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_008881.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 7,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_04_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_006787.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 6,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_05_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_001566.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 6,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_06_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_007189.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 6,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_07_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_006239.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_08_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_005545.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_09_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c4_D00-D20-D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_002995.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D40",
+        "D44"
+      ],
+      "num_classes": 4,
+      "objects": 5,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c4_D00-D20-D40_annotated.png",
+      "annotation_file": "annotations/sample_10_c4_D00-D20-D40_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

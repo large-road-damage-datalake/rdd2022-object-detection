@@ -1,0 +1,176 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_000922.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 30,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_01_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_01_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_000633.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 29,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_02_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_02_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_006926.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 27,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_03_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_03_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_006168.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 25,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_04_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_04_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_001504.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 22,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_05_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_05_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_005797.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 22,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_06_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_06_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_005238.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 18,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_07_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_07_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_001060.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 17,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_08_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_08_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_005967.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 16,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_09_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_09_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Norway/train/images\\Norway_007390.jpg",
+      "classes": [
+        "D00",
+        "D10",
+        "D20",
+        "D40"
+      ],
+      "num_classes": 4,
+      "objects": 15,
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": "annotated/sample_10_c4_D00-D10-D20_annotated.png",
+      "annotation_file": "annotations/sample_10_c4_D00-D10-D20_annotation.xml",
+      "slider_ready": true
+    }
+  ],
+  "count": 10,
+  "slider_pairs": 10
+}

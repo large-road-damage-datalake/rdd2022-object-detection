@@ -1,0 +1,4031 @@
+{
+  "version": 1,
+  "default_view": "all",
+  "view_order": [
+    "all",
+    "china",
+    "czech_republic",
+    "india",
+    "japan",
+    "norway",
+    "united_states"
+  ],
+  "views": {
+    "all": {
+      "id": "all",
+      "label": "All",
+      "split_names": [
+        "china_drone_train",
+        "china_motorbike_test",
+        "china_motorbike_train",
+        "czech_test",
+        "czech_train",
+        "india_test",
+        "india_train",
+        "japan_test",
+        "japan_train",
+        "norway_test",
+        "norway_train",
+        "united_states_test",
+        "united_states_train"
+      ],
+      "summary": {
+        "num_images": 47420,
+        "num_annotations": 65712,
+        "num_images_with_annotations": 26661,
+        "num_images_without_annotations": 20759,
+        "num_classes": 12,
+        "annotation_coverage": 0.562231,
+        "class_distribution": {
+          "D10": 11830,
+          "D00": 26016,
+          "D20": 10617,
+          "Repair": 1046,
+          "D40": 6544,
+          "Block crack": 3,
+          "D44": 5057,
+          "D01": 179,
+          "D11": 45,
+          "D50": 3581,
+          "D43": 793,
+          "D0w0": 1
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              13548,
+              26016,
+              1.9203,
+              5.056
+            ],
+            [
+              "D10",
+              7709,
+              11830,
+              1.5346,
+              3.2682
+            ],
+            [
+              "D20",
+              8412,
+              10617,
+              1.2621,
+              15.3622
+            ],
+            [
+              "D40",
+              3674,
+              6544,
+              1.7812,
+              2.7296
+            ],
+            [
+              "D44",
+              4079,
+              5057,
+              1.2398,
+              9.3708
+            ],
+            [
+              "D50",
+              2638,
+              3581,
+              1.3575,
+              0.7113
+            ],
+            [
+              "Repair",
+              803,
+              1046,
+              1.3026,
+              21.0087
+            ],
+            [
+              "D43",
+              753,
+              793,
+              1.0531,
+              16.594
+            ],
+            [
+              "D01",
+              118,
+              179,
+              1.5169,
+              3.8974
+            ],
+            [
+              "D11",
+              36,
+              45,
+              1.25,
+              4.426
+            ],
+            [
+              "Block crack",
+              3,
+              3,
+              1.0,
+              5.065
+            ],
+            [
+              "D0w0",
+              1,
+              1,
+              1.0,
+              3.8378
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Block crack",
+            "D00",
+            "D01",
+            "D0w0",
+            "D10",
+            "D11",
+            "D20",
+            "D40",
+            "D43",
+            "D44",
+            "D50",
+            "Repair"
+          ],
+          "data": [
+            [
+              3,
+              1,
+              0,
+              0,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              13548,
+              10,
+              0,
+              4317,
+              4,
+              2215,
+              870,
+              126,
+              1036,
+              586,
+              195
+            ],
+            [
+              0,
+              10,
+              118,
+              0,
+              1,
+              26,
+              2,
+              19,
+              0,
+              11,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              4317,
+              1,
+              0,
+              7709,
+              1,
+              1605,
+              385,
+              73,
+              703,
+              538,
+              118
+            ],
+            [
+              0,
+              4,
+              26,
+              0,
+              1,
+              36,
+              0,
+              7,
+              0,
+              2,
+              1,
+              0
+            ],
+            [
+              1,
+              2215,
+              2,
+              0,
+              1605,
+              0,
+              8412,
+              1543,
+              154,
+              1487,
+              1118,
+              117
+            ],
+            [
+              0,
+              870,
+              19,
+              0,
+              385,
+              7,
+              1543,
+              3674,
+              23,
+              282,
+              441,
+              94
+            ],
+            [
+              0,
+              126,
+              0,
+              0,
+              73,
+              0,
+              154,
+              23,
+              753,
+              124,
+              240,
+              0
+            ],
+            [
+              0,
+              1036,
+              11,
+              0,
+              703,
+              2,
+              1487,
+              282,
+              124,
+              4079,
+              624,
+              0
+            ],
+            [
+              0,
+              586,
+              1,
+              0,
+              538,
+              1,
+              1118,
+              441,
+              240,
+              624,
+              2638,
+              0
+            ],
+            [
+              1,
+              195,
+              0,
+              0,
+              118,
+              0,
+              117,
+              94,
+              0,
+              0,
+              0,
+              803
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              26016,
+              2.6329,
+              67.0563,
+              0.0013,
+              8.37,
+              0.4101,
+              981.58,
+              99.8047,
+              158.95,
+              19.0499
+            ],
+            [
+              "D10",
+              11830,
+              2.1297,
+              67.2512,
+              0.0022,
+              4.0,
+              0.2109,
+              1105.0,
+              67.3828,
+              40.5,
+              5.6183
+            ],
+            [
+              "D20",
+              10617,
+              12.1717,
+              94.0847,
+              0.0,
+              1.0,
+              0.1667,
+              1017.0,
+              99.8047,
+              170.97,
+              26.407
+            ],
+            [
+              "D40",
+              6544,
+              1.5325,
+              38.7133,
+              0.0028,
+              7.0,
+              0.3743,
+              466.12,
+              85.7422,
+              57.28,
+              7.8647
+            ],
+            [
+              "D44",
+              5057,
+              7.5585,
+              60.37,
+              0.0672,
+              11.0,
+              1.8333,
+              457.0,
+              84.6296,
+              152.08,
+              24.7998
+            ],
+            [
+              "D50",
+              3581,
+              0.524,
+              9.225,
+              0.0003,
+              1.0,
+              0.1667,
+              136.0,
+              22.6667,
+              22.99,
+              3.8153
+            ],
+            [
+              "Repair",
+              1046,
+              16.1281,
+              82.4558,
+              0.103,
+              6.0,
+              1.1719,
+              511.0,
+              99.8047,
+              186.04,
+              36.3358
+            ],
+            [
+              "D43",
+              793,
+              15.757,
+              55.3533,
+              0.2233,
+              12.0,
+              2.0,
+              361.0,
+              60.1667,
+              119.63,
+              19.7326
+            ],
+            [
+              "D01",
+              179,
+              2.5692,
+              14.6169,
+              0.2218,
+              34.0,
+              4.7222,
+              367.0,
+              50.9722,
+              119.47,
+              16.5937
+            ],
+            [
+              "D11",
+              45,
+              3.5408,
+              9.5486,
+              0.4192,
+              20.0,
+              2.7778,
+              116.0,
+              16.1111,
+              56.36,
+              7.8272
+            ],
+            [
+              "Block crack",
+              3,
+              5.065,
+              6.2061,
+              4.0863,
+              104.0,
+              20.3125,
+              187.0,
+              36.5234,
+              133.0,
+              25.9766
+            ],
+            [
+              "D0w0",
+              1,
+              3.8378,
+              3.8378,
+              3.8378,
+              173.0,
+              24.0278,
+              173.0,
+              24.0278,
+              173.0,
+              24.0278
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+          ],
+          "y_labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40",
+            "D44",
+            "D50",
+            "Repair",
+            "D43",
+            "D01",
+            "D11",
+            "Block crack",
+            "D0w0"
+          ],
+          "z": [
+            [
+              33872,
+              7807,
+              3205,
+              1193,
+              580,
+              266,
+              145,
+              85,
+              59,
+              41,
+              50,
+              22,
+              15,
+              17,
+              11,
+              12,
+              8,
+              7,
+              4,
+              3,
+              4,
+              6,
+              2,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              39711,
+              5014,
+              1807,
+              577,
+              190,
+              71,
+              21,
+              13,
+              9,
+              4,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              39008,
+              6582,
+              1531,
+              242,
+              44,
+              9,
+              2,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              43746,
+              2186,
+              798,
+              356,
+              147,
+              98,
+              42,
+              29,
+              10,
+              3,
+              3,
+              1,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              43341,
+              3191,
+              812,
+              69,
+              5,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              44782,
+              1914,
+              568,
+              112,
+              29,
+              12,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              46617,
+              619,
+              136,
+              37,
+              11,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              46667,
+              715,
+              37,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              47302,
+              77,
+              31,
+              5,
+              2,
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              47384,
+              30,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              47417,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              47419,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 20759
+                },
+                {
+                  "x": "1",
+                  "y": 14916
+                },
+                {
+                  "x": "2",
+                  "y": 8929
+                },
+                {
+                  "x": "3",
+                  "y": 2331
+                },
+                {
+                  "x": "4",
+                  "y": 421
+                },
+                {
+                  "x": "5",
+                  "y": 61
+                },
+                {
+                  "x": "6",
+                  "y": 3
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D00",
+                  "y": 5.056
+                },
+                {
+                  "x": "D10",
+                  "y": 3.2682
+                },
+                {
+                  "x": "D20",
+                  "y": 15.3622
+                },
+                {
+                  "x": "D40",
+                  "y": 2.7296
+                },
+                {
+                  "x": "D44",
+                  "y": 9.3708
+                },
+                {
+                  "x": "D50",
+                  "y": 0.7113
+                },
+                {
+                  "x": "Repair",
+                  "y": 21.0087
+                },
+                {
+                  "x": "D43",
+                  "y": 16.594
+                },
+                {
+                  "x": "D01",
+                  "y": 3.8974
+                },
+                {
+                  "x": "D11",
+                  "y": 4.426
+                },
+                {
+                  "x": "Block crack",
+                  "y": 5.065
+                },
+                {
+                  "x": "D0w0",
+                  "y": 3.8378
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/samples",
+        "samples_manifest": "visualizations/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/samples/annotated",
+        "sample_annotations_dir": "visualizations/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D00",
+            "file": "visualizations/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/spatial_heatmaps/D40.png"
+          },
+          {
+            "class": "D44",
+            "file": "visualizations/spatial_heatmaps/D44.png"
+          },
+          {
+            "class": "D50",
+            "file": "visualizations/spatial_heatmaps/D50.png"
+          },
+          {
+            "class": "Repair",
+            "file": "visualizations/spatial_heatmaps/Repair.png"
+          },
+          {
+            "class": "D43",
+            "file": "visualizations/spatial_heatmaps/D43.png"
+          },
+          {
+            "class": "D01",
+            "file": "visualizations/spatial_heatmaps/D01.png"
+          },
+          {
+            "class": "D11",
+            "file": "visualizations/spatial_heatmaps/D11.png"
+          },
+          {
+            "class": "Block crack",
+            "file": "visualizations/spatial_heatmaps/Block_crack.png"
+          },
+          {
+            "class": "D0w0",
+            "file": "visualizations/spatial_heatmaps/D0w0.png"
+          }
+        ]
+      }
+    },
+    "china": {
+      "id": "china",
+      "label": "China",
+      "split_names": [
+        "china_drone_train",
+        "china_motorbike_test",
+        "china_motorbike_train"
+      ],
+      "summary": {
+        "num_images": 4878,
+        "num_annotations": 8767,
+        "num_images_with_annotations": 4373,
+        "num_images_without_annotations": 505,
+        "num_classes": 6,
+        "annotation_coverage": 0.896474,
+        "class_distribution": {
+          "D10": 2359,
+          "D00": 4104,
+          "D20": 934,
+          "Repair": 1046,
+          "D40": 321,
+          "Block crack": 3
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              2453,
+              4104,
+              1.6731,
+              10.7589
+            ],
+            [
+              "D10",
+              1761,
+              2359,
+              1.3396,
+              6.3043
+            ],
+            [
+              "Repair",
+              803,
+              1046,
+              1.3026,
+              21.0087
+            ],
+            [
+              "D20",
+              750,
+              934,
+              1.2453,
+              23.6996
+            ],
+            [
+              "D40",
+              228,
+              321,
+              1.4079,
+              1.8652
+            ],
+            [
+              "Block crack",
+              3,
+              3,
+              1.0,
+              5.065
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "Block crack",
+            "D00",
+            "D10",
+            "D20",
+            "D40",
+            "Repair"
+          ],
+          "data": [
+            [
+              3,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            [
+              1,
+              2453,
+              817,
+              372,
+              88,
+              195
+            ],
+            [
+              1,
+              817,
+              1761,
+              158,
+              50,
+              118
+            ],
+            [
+              1,
+              372,
+              158,
+              750,
+              63,
+              117
+            ],
+            [
+              0,
+              88,
+              50,
+              63,
+              228,
+              94
+            ],
+            [
+              1,
+              195,
+              118,
+              117,
+              94,
+              803
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              4104,
+              6.4307,
+              67.0563,
+              0.0343,
+              14.0,
+              2.7344,
+              511.0,
+              99.8047,
+              215.15,
+              42.0206
+            ],
+            [
+              "D10",
+              2359,
+              4.7062,
+              67.2512,
+              0.0839,
+              6.0,
+              1.1719,
+              345.0,
+              67.3828,
+              43.45,
+              8.4872
+            ],
+            [
+              "Repair",
+              1046,
+              16.1281,
+              82.4558,
+              0.103,
+              6.0,
+              1.1719,
+              511.0,
+              99.8047,
+              186.04,
+              36.3358
+            ],
+            [
+              "D20",
+              934,
+              19.0307,
+              89.8632,
+              0.1442,
+              21.0,
+              4.1016,
+              511.0,
+              99.8047,
+              180.25,
+              35.2048
+            ],
+            [
+              "D40",
+              321,
+              1.3248,
+              14.1285,
+              0.0206,
+              8.0,
+              1.5625,
+              439.0,
+              85.7422,
+              58.47,
+              11.42
+            ],
+            [
+              "Block crack",
+              3,
+              5.065,
+              6.2061,
+              4.0863,
+              104.0,
+              20.3125,
+              187.0,
+              36.5234,
+              133.0,
+              25.9766
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "y_labels": [
+            "D00",
+            "D10",
+            "Repair",
+            "D20",
+            "D40",
+            "Block crack"
+          ],
+          "z": [
+            [
+              2425,
+              1479,
+              577,
+              199,
+              133,
+              50,
+              13,
+              2
+            ],
+            [
+              3117,
+              1270,
+              405,
+              67,
+              17,
+              2,
+              0,
+              0
+            ],
+            [
+              4075,
+              619,
+              136,
+              37,
+              11,
+              0,
+              0,
+              0
+            ],
+            [
+              4128,
+              580,
+              157,
+              12,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4650,
+              152,
+              59,
+              17,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4875,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 505
+                },
+                {
+                  "x": "1",
+                  "y": 3085
+                },
+                {
+                  "x": "2",
+                  "y": 1043
+                },
+                {
+                  "x": "3",
+                  "y": 175
+                },
+                {
+                  "x": "4",
+                  "y": 48
+                },
+                {
+                  "x": "5",
+                  "y": 22
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D00",
+                  "y": 10.7589
+                },
+                {
+                  "x": "D10",
+                  "y": 6.3043
+                },
+                {
+                  "x": "Repair",
+                  "y": 21.0087
+                },
+                {
+                  "x": "D20",
+                  "y": 23.6996
+                },
+                {
+                  "x": "D40",
+                  "y": 1.8652
+                },
+                {
+                  "x": "Block crack",
+                  "y": 5.065
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/china/samples",
+        "samples_manifest": "visualizations/country_views/china/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/china/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/china/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/china/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/china/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/china/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "Repair",
+            "file": "visualizations/country_views/china/spatial_heatmaps/Repair.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/china/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/china/spatial_heatmaps/D40.png"
+          },
+          {
+            "class": "Block crack",
+            "file": "visualizations/country_views/china/spatial_heatmaps/Block_crack.png"
+          }
+        ]
+      }
+    },
+    "czech_republic": {
+      "id": "czech_republic",
+      "label": "Czech Republic",
+      "split_names": [
+        "czech_test",
+        "czech_train"
+      ],
+      "summary": {
+        "num_images": 3538,
+        "num_annotations": 1745,
+        "num_images_with_annotations": 1072,
+        "num_images_without_annotations": 2466,
+        "num_classes": 4,
+        "annotation_coverage": 0.302996,
+        "class_distribution": {
+          "D00": 988,
+          "D40": 197,
+          "D10": 399,
+          "D20": 161
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              764,
+              988,
+              1.2932,
+              1.9318
+            ],
+            [
+              "D10",
+              300,
+              399,
+              1.33,
+              1.7609
+            ],
+            [
+              "D40",
+              154,
+              197,
+              1.2792,
+              0.745
+            ],
+            [
+              "D20",
+              129,
+              161,
+              1.2481,
+              4.9517
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40"
+          ],
+          "data": [
+            [
+              764,
+              135,
+              34,
+              53
+            ],
+            [
+              135,
+              300,
+              23,
+              26
+            ],
+            [
+              34,
+              23,
+              129,
+              30
+            ],
+            [
+              53,
+              26,
+              30,
+              154
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              988,
+              1.4938,
+              13.115,
+              0.1086,
+              16.0,
+              2.6667,
+              161.0,
+              26.8333,
+              77.34,
+              12.8902
+            ],
+            [
+              "D10",
+              399,
+              1.324,
+              8.7083,
+              0.17,
+              9.0,
+              1.5,
+              126.0,
+              21.0,
+              28.76,
+              4.7941
+            ],
+            [
+              "D40",
+              197,
+              0.5824,
+              4.6428,
+              0.0875,
+              14.0,
+              2.3333,
+              122.0,
+              20.3333,
+              33.31,
+              5.5525
+            ],
+            [
+              "D20",
+              161,
+              3.9675,
+              15.3,
+              0.3531,
+              27.0,
+              4.5,
+              141.0,
+              23.5,
+              86.25,
+              14.3747
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "y_labels": [
+            "D00",
+            "D10",
+            "D40",
+            "D20"
+          ],
+          "z": [
+            [
+              2774,
+              590,
+              131,
+              36,
+              7,
+              0
+            ],
+            [
+              3238,
+              229,
+              53,
+              11,
+              4,
+              3
+            ],
+            [
+              3384,
+              122,
+              23,
+              8,
+              0,
+              1
+            ],
+            [
+              3409,
+              97,
+              32,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 2466
+                },
+                {
+                  "x": "1",
+                  "y": 821
+                },
+                {
+                  "x": "2",
+                  "y": 229
+                },
+                {
+                  "x": "3",
+                  "y": 20
+                },
+                {
+                  "x": "4",
+                  "y": 2
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D00",
+                  "y": 1.9318
+                },
+                {
+                  "x": "D10",
+                  "y": 1.7609
+                },
+                {
+                  "x": "D40",
+                  "y": 0.745
+                },
+                {
+                  "x": "D20",
+                  "y": 4.9517
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/czech_republic/samples",
+        "samples_manifest": "visualizations/country_views/czech_republic/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/czech_republic/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/czech_republic/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/czech_republic/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/czech_republic/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/czech_republic/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/czech_republic/spatial_heatmaps/D40.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/czech_republic/spatial_heatmaps/D20.png"
+          }
+        ]
+      }
+    },
+    "india": {
+      "id": "india",
+      "label": "India",
+      "split_names": [
+        "india_test",
+        "india_train"
+      ],
+      "summary": {
+        "num_images": 9665,
+        "num_annotations": 8203,
+        "num_images_with_annotations": 3785,
+        "num_images_without_annotations": 5880,
+        "num_classes": 10,
+        "annotation_coverage": 0.391619,
+        "class_distribution": {
+          "D40": 3187,
+          "D44": 1062,
+          "D00": 1555,
+          "D20": 2021,
+          "D01": 179,
+          "D11": 45,
+          "D10": 68,
+          "D50": 28,
+          "D43": 57,
+          "D0w0": 1
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D40",
+              1530,
+              3187,
+              2.083,
+              4.7691
+            ],
+            [
+              "D20",
+              1758,
+              2021,
+              1.1496,
+              13.1417
+            ],
+            [
+              "D00",
+              1109,
+              1555,
+              1.4022,
+              3.9587
+            ],
+            [
+              "D44",
+              869,
+              1062,
+              1.2221,
+              2.4679
+            ],
+            [
+              "D01",
+              118,
+              179,
+              1.5169,
+              3.8974
+            ],
+            [
+              "D10",
+              60,
+              68,
+              1.1333,
+              2.9394
+            ],
+            [
+              "D43",
+              57,
+              57,
+              1.0,
+              9.9323
+            ],
+            [
+              "D11",
+              36,
+              45,
+              1.25,
+              4.426
+            ],
+            [
+              "D50",
+              28,
+              28,
+              1.0,
+              0.7819
+            ],
+            [
+              "D0w0",
+              1,
+              1,
+              1.0,
+              3.8378
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "D00",
+            "D01",
+            "D0w0",
+            "D10",
+            "D11",
+            "D20",
+            "D40",
+            "D43",
+            "D44",
+            "D50"
+          ],
+          "data": [
+            [
+              1109,
+              10,
+              0,
+              33,
+              4,
+              445,
+              363,
+              3,
+              84,
+              3
+            ],
+            [
+              10,
+              118,
+              0,
+              1,
+              26,
+              2,
+              19,
+              0,
+              11,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              33,
+              1,
+              0,
+              60,
+              1,
+              12,
+              22,
+              0,
+              3,
+              0
+            ],
+            [
+              4,
+              26,
+              0,
+              1,
+              36,
+              0,
+              7,
+              0,
+              2,
+              1
+            ],
+            [
+              445,
+              2,
+              0,
+              12,
+              0,
+              1758,
+              549,
+              25,
+              308,
+              1
+            ],
+            [
+              363,
+              19,
+              0,
+              22,
+              7,
+              549,
+              1530,
+              5,
+              124,
+              8
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              25,
+              5,
+              57,
+              6,
+              0
+            ],
+            [
+              84,
+              11,
+              0,
+              3,
+              2,
+              308,
+              124,
+              6,
+              869,
+              7
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              1,
+              1,
+              8,
+              0,
+              7,
+              28
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D40",
+              3187,
+              2.2895,
+              38.7133,
+              0.0586,
+              12.0,
+              1.6667,
+              427.0,
+              59.3056,
+              67.59,
+              9.3869
+            ],
+            [
+              "D20",
+              2021,
+              11.4315,
+              66.8148,
+              0.305,
+              26.0,
+              3.6111,
+              535.0,
+              74.3056,
+              165.32,
+              22.9617
+            ],
+            [
+              "D00",
+              1555,
+              2.8233,
+              25.2296,
+              0.0833,
+              17.0,
+              2.3611,
+              500.0,
+              69.4444,
+              131.68,
+              18.2889
+            ],
+            [
+              "D44",
+              1062,
+              2.0194,
+              19.2778,
+              0.1285,
+              23.0,
+              3.1944,
+              338.0,
+              46.9444,
+              96.02,
+              13.3363
+            ],
+            [
+              "D01",
+              179,
+              2.5692,
+              14.6169,
+              0.2218,
+              34.0,
+              4.7222,
+              367.0,
+              50.9722,
+              119.47,
+              16.5937
+            ],
+            [
+              "D10",
+              68,
+              2.5936,
+              11.6829,
+              0.179,
+              14.0,
+              1.9444,
+              130.0,
+              18.0556,
+              49.25,
+              6.8403
+            ],
+            [
+              "D43",
+              57,
+              9.9323,
+              24.6358,
+              0.7049,
+              29.0,
+              4.0278,
+              214.0,
+              29.7222,
+              103.19,
+              14.3324
+            ],
+            [
+              "D11",
+              45,
+              3.5408,
+              9.5486,
+              0.4192,
+              20.0,
+              2.7778,
+              116.0,
+              16.1111,
+              56.36,
+              7.8272
+            ],
+            [
+              "D50",
+              28,
+              0.7819,
+              2.7033,
+              0.1836,
+              17.0,
+              2.3611,
+              83.0,
+              11.5278,
+              40.96,
+              5.6895
+            ],
+            [
+              "D0w0",
+              1,
+              3.8378,
+              3.8378,
+              3.8378,
+              173.0,
+              24.0278,
+              173.0,
+              24.0278,
+              173.0,
+              24.0278
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "y_labels": [
+            "D40",
+            "D20",
+            "D00",
+            "D44",
+            "D01",
+            "D10",
+            "D43",
+            "D11",
+            "D50",
+            "D0w0"
+          ],
+          "z": [
+            [
+              8135,
+              759,
+              365,
+              185,
+              91,
+              63,
+              32,
+              22,
+              7,
+              2,
+              2,
+              1,
+              0,
+              1
+            ],
+            [
+              7907,
+              1518,
+              218,
+              21,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8556,
+              775,
+              255,
+              56,
+              16,
+              5,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              8796,
+              695,
+              156,
+              17,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9547,
+              77,
+              31,
+              5,
+              2,
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9605,
+              54,
+              5,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9608,
+              57,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9629,
+              30,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9637,
+              28,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9664,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 5880
+                },
+                {
+                  "x": "1",
+                  "y": 2292
+                },
+                {
+                  "x": "2",
+                  "y": 1222
+                },
+                {
+                  "x": "3",
+                  "y": 254
+                },
+                {
+                  "x": "4",
+                  "y": 17
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D40",
+                  "y": 4.7691
+                },
+                {
+                  "x": "D20",
+                  "y": 13.1417
+                },
+                {
+                  "x": "D00",
+                  "y": 3.9587
+                },
+                {
+                  "x": "D44",
+                  "y": 2.4679
+                },
+                {
+                  "x": "D01",
+                  "y": 3.8974
+                },
+                {
+                  "x": "D10",
+                  "y": 2.9394
+                },
+                {
+                  "x": "D43",
+                  "y": 9.9323
+                },
+                {
+                  "x": "D11",
+                  "y": 4.426
+                },
+                {
+                  "x": "D50",
+                  "y": 0.7819
+                },
+                {
+                  "x": "D0w0",
+                  "y": 3.8378
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/india/samples",
+        "samples_manifest": "visualizations/country_views/india/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/india/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/india/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/india/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D40.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D44",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D44.png"
+          },
+          {
+            "class": "D01",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D01.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D43",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D43.png"
+          },
+          {
+            "class": "D11",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D11.png"
+          },
+          {
+            "class": "D50",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D50.png"
+          },
+          {
+            "class": "D0w0",
+            "file": "visualizations/country_views/india/spatial_heatmaps/D0w0.png"
+          }
+        ]
+      }
+    },
+    "japan": {
+      "id": "japan",
+      "label": "Japan",
+      "split_names": [
+        "japan_test",
+        "japan_train"
+      ],
+      "summary": {
+        "num_images": 13133,
+        "num_annotations": 24754,
+        "num_images_with_annotations": 9712,
+        "num_images_without_annotations": 3421,
+        "num_classes": 7,
+        "annotation_coverage": 0.739511,
+        "class_distribution": {
+          "D20": 6199,
+          "D40": 2243,
+          "D10": 3979,
+          "D00": 4049,
+          "D44": 3995,
+          "D43": 736,
+          "D50": 3553
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D20",
+              4714,
+              6199,
+              1.315,
+              16.7816
+            ],
+            [
+              "D00",
+              2797,
+              4049,
+              1.4476,
+              3.5224
+            ],
+            [
+              "D44",
+              3210,
+              3995,
+              1.2445,
+              11.2395
+            ],
+            [
+              "D10",
+              2240,
+              3979,
+              1.7763,
+              2.4769
+            ],
+            [
+              "D50",
+              2610,
+              3553,
+              1.3613,
+              0.7105
+            ],
+            [
+              "D40",
+              1390,
+              2243,
+              1.6137,
+              1.5035
+            ],
+            [
+              "D43",
+              696,
+              736,
+              1.0575,
+              17.1396
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40",
+            "D43",
+            "D44",
+            "D50"
+          ],
+          "data": [
+            [
+              2797,
+              871,
+              734,
+              143,
+              123,
+              952,
+              583
+            ],
+            [
+              871,
+              2240,
+              1007,
+              162,
+              73,
+              700,
+              538
+            ],
+            [
+              734,
+              1007,
+              4714,
+              818,
+              129,
+              1179,
+              1117
+            ],
+            [
+              143,
+              162,
+              818,
+              1390,
+              18,
+              158,
+              433
+            ],
+            [
+              123,
+              73,
+              129,
+              18,
+              696,
+              118,
+              240
+            ],
+            [
+              952,
+              700,
+              1179,
+              158,
+              118,
+              3210,
+              617
+            ],
+            [
+              583,
+              538,
+              1117,
+              433,
+              240,
+              617,
+              2610
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D20",
+              6199,
+              12.7615,
+              94.0847,
+              0.0,
+              1.0,
+              0.1667,
+              1017.0,
+              99.3164,
+              165.26,
+              27.4947
+            ],
+            [
+              "D00",
+              4049,
+              2.4332,
+              36.2542,
+              0.0397,
+              11.0,
+              1.8333,
+              417.0,
+              69.5,
+              99.08,
+              16.4944
+            ],
+            [
+              "D44",
+              3995,
+              9.031,
+              60.37,
+              0.0672,
+              11.0,
+              1.8333,
+              457.0,
+              84.6296,
+              166.99,
+              27.8472
+            ],
+            [
+              "D10",
+              3979,
+              1.3944,
+              15.96,
+              0.0389,
+              4.0,
+              0.6667,
+              238.0,
+              39.6667,
+              28.7,
+              4.7841
+            ],
+            [
+              "D50",
+              3553,
+              0.5219,
+              9.225,
+              0.0003,
+              1.0,
+              0.1667,
+              136.0,
+              22.6667,
+              22.85,
+              3.8005
+            ],
+            [
+              "D40",
+              2243,
+              0.9317,
+              34.4946,
+              0.0244,
+              7.0,
+              1.1667,
+              460.0,
+              44.9219,
+              45.82,
+              6.6318
+            ],
+            [
+              "D43",
+              736,
+              16.2081,
+              55.3533,
+              0.2233,
+              12.0,
+              2.0,
+              361.0,
+              60.1667,
+              120.9,
+              20.1508
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "y_labels": [
+            "D20",
+            "D00",
+            "D44",
+            "D10",
+            "D50",
+            "D40",
+            "D43"
+          ],
+          "z": [
+            [
+              8419,
+              3506,
+              983,
+              181,
+              37,
+              6,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              10336,
+              1955,
+              571,
+              184,
+              56,
+              18,
+              9,
+              2,
+              0,
+              2
+            ],
+            [
+              9923,
+              2496,
+              656,
+              52,
+              4,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            [
+              10893,
+              1202,
+              601,
+              273,
+              101,
+              40,
+              13,
+              7,
+              2,
+              1
+            ],
+            [
+              10523,
+              1886,
+              568,
+              112,
+              29,
+              12,
+              2,
+              1,
+              0,
+              0
+            ],
+            [
+              11743,
+              885,
+              301,
+              118,
+              46,
+              27,
+              8,
+              5,
+              0,
+              0
+            ],
+            [
+              12437,
+              658,
+              37,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 3421
+                },
+                {
+                  "x": "1",
+                  "y": 4078
+                },
+                {
+                  "x": "2",
+                  "y": 3732
+                },
+                {
+                  "x": "3",
+                  "y": 1538
+                },
+                {
+                  "x": "4",
+                  "y": 322
+                },
+                {
+                  "x": "5",
+                  "y": 39
+                },
+                {
+                  "x": "6",
+                  "y": 3
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D20",
+                  "y": 16.7816
+                },
+                {
+                  "x": "D00",
+                  "y": 3.5224
+                },
+                {
+                  "x": "D44",
+                  "y": 11.2395
+                },
+                {
+                  "x": "D10",
+                  "y": 2.4769
+                },
+                {
+                  "x": "D50",
+                  "y": 0.7105
+                },
+                {
+                  "x": "D40",
+                  "y": 1.5035
+                },
+                {
+                  "x": "D43",
+                  "y": 17.1396
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/japan/samples",
+        "samples_manifest": "visualizations/country_views/japan/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/japan/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/japan/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/japan/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D44",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D44.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D50",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D50.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D40.png"
+          },
+          {
+            "class": "D43",
+            "file": "visualizations/country_views/japan/spatial_heatmaps/D43.png"
+          }
+        ]
+      }
+    },
+    "norway": {
+      "id": "norway",
+      "label": "Norway",
+      "split_names": [
+        "norway_test",
+        "norway_train"
+      ],
+      "summary": {
+        "num_images": 10201,
+        "num_annotations": 11229,
+        "num_images_with_annotations": 2914,
+        "num_images_without_annotations": 7287,
+        "num_classes": 4,
+        "annotation_coverage": 0.285658,
+        "class_distribution": {
+          "D00": 8570,
+          "D20": 468,
+          "D40": 461,
+          "D10": 1730
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              2518,
+              8570,
+              3.4035,
+              2.7044
+            ],
+            [
+              "D10",
+              1006,
+              1730,
+              1.7197,
+              1.5297
+            ],
+            [
+              "D20",
+              322,
+              468,
+              1.4534,
+              2.4887
+            ],
+            [
+              "D40",
+              256,
+              461,
+              1.8008,
+              0.2465
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40"
+          ],
+          "data": [
+            [
+              2518,
+              727,
+              269,
+              153
+            ],
+            [
+              727,
+              1006,
+              142,
+              80
+            ],
+            [
+              269,
+              142,
+              322,
+              54
+            ],
+            [
+              153,
+              80,
+              54,
+              256
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              8570,
+              0.7946,
+              13.5188,
+              0.0013,
+              8.37,
+              0.4101,
+              981.58,
+              48.2349,
+              202.76,
+              9.9345
+            ],
+            [
+              "D10",
+              1730,
+              0.8895,
+              13.4644,
+              0.0022,
+              4.31,
+              0.2109,
+              1105.0,
+              54.1401,
+              73.62,
+              3.6062
+            ],
+            [
+              "D20",
+              468,
+              1.7123,
+              12.8151,
+              0.006,
+              13.77,
+              0.6747,
+              879.7,
+              43.1014,
+              289.84,
+              14.1939
+            ],
+            [
+              "D40",
+              461,
+              0.1369,
+              2.7491,
+              0.0028,
+              7.65,
+              0.3743,
+              466.12,
+              22.8378,
+              60.23,
+              2.9519
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36"
+          ],
+          "y_labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40"
+          ],
+          "z": [
+            [
+              7683,
+              962,
+              484,
+              267,
+              201,
+              159,
+              106,
+              75,
+              58,
+              39,
+              50,
+              22,
+              15,
+              17,
+              11,
+              12,
+              8,
+              7,
+              4,
+              3,
+              4,
+              6,
+              2,
+              0,
+              4,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              9195,
+              634,
+              210,
+              88,
+              27,
+              20,
+              8,
+              6,
+              7,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9879,
+              228,
+              63,
+              21,
+              4,
+              3,
+              1,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              9945,
+              164,
+              44,
+              23,
+              9,
+              7,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 7287
+                },
+                {
+                  "x": "1",
+                  "y": 1938
+                },
+                {
+                  "x": "2",
+                  "y": 789
+                },
+                {
+                  "x": "3",
+                  "y": 162
+                },
+                {
+                  "x": "4",
+                  "y": 25
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D00",
+                  "y": 2.7044
+                },
+                {
+                  "x": "D10",
+                  "y": 1.5297
+                },
+                {
+                  "x": "D20",
+                  "y": 2.4887
+                },
+                {
+                  "x": "D40",
+                  "y": 0.2465
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/norway/samples",
+        "samples_manifest": "visualizations/country_views/norway/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/norway/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/norway/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/norway/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/norway/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/norway/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/norway/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/norway/spatial_heatmaps/D40.png"
+          }
+        ]
+      }
+    },
+    "united_states": {
+      "id": "united_states",
+      "label": "United States",
+      "split_names": [
+        "united_states_test",
+        "united_states_train"
+      ],
+      "summary": {
+        "num_images": 6005,
+        "num_annotations": 11014,
+        "num_images_with_annotations": 4805,
+        "num_images_without_annotations": 1200,
+        "num_classes": 4,
+        "annotation_coverage": 0.800167,
+        "class_distribution": {
+          "D10": 3295,
+          "D00": 6750,
+          "D20": 834,
+          "D40": 135
+        }
+      },
+      "artifacts": {
+        "class_balance": {
+          "columns": [
+            "Class",
+            "Images",
+            "Objects",
+            "Count on image, average",
+            "Area on image, average (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              3907,
+              6750,
+              1.7277,
+              5.0113
+            ],
+            [
+              "D10",
+              2342,
+              3295,
+              1.4069,
+              2.6904
+            ],
+            [
+              "D20",
+              739,
+              834,
+              1.1286,
+              10.5558
+            ],
+            [
+              "D40",
+              116,
+              135,
+              1.1638,
+              0.3363
+            ]
+          ],
+          "description": "Images column counts images containing at least one object of class.",
+          "options": {
+            "sort": {
+              "columnIndex": 2,
+              "order": "desc"
+            },
+            "pageSize": 100
+          }
+        },
+        "class_cooccurrence": {
+          "type": "matrix",
+          "labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40"
+          ],
+          "data": [
+            [
+              3907,
+              1734,
+              361,
+              70
+            ],
+            [
+              1734,
+              2342,
+              263,
+              45
+            ],
+            [
+              361,
+              263,
+              739,
+              29
+            ],
+            [
+              70,
+              45,
+              29,
+              116
+            ]
+          ],
+          "title": "Co-occurrence Matrix",
+          "description": "Cell [i,j] is number of images that contain both classes i and j."
+        },
+        "class_sizes": {
+          "columns": [
+            "Class",
+            "Object count",
+            "Avg area (%)",
+            "Max area (%)",
+            "Min area (%)",
+            "Min height (px)",
+            "Min height (%)",
+            "Max height (px)",
+            "Max height (%)",
+            "Avg height (px)",
+            "Avg height (%)"
+          ],
+          "data": [
+            [
+              "D00",
+              6750,
+              2.9006,
+              18.0352,
+              0.0537,
+              15.0,
+              2.3438,
+              296.0,
+              46.25,
+              123.31,
+              19.2667
+            ],
+            [
+              "D10",
+              3295,
+              1.9122,
+              19.978,
+              0.1128,
+              8.0,
+              1.25,
+              248.0,
+              38.75,
+              36.5,
+              5.7029
+            ],
+            [
+              "D20",
+              834,
+              9.3534,
+              39.3125,
+              0.1367,
+              26.0,
+              4.0625,
+              284.0,
+              44.375,
+              166.37,
+              25.9948
+            ],
+            [
+              "D40",
+              135,
+              0.289,
+              3.9397,
+              0.0508,
+              12.0,
+              1.875,
+              99.0,
+              15.4688,
+              26.3,
+              4.11
+            ]
+          ],
+          "description": "Area and height are relative to image size where (%) columns are 0-100 scale."
+        },
+        "objects_distribution": {
+          "type": "heatmap",
+          "title": "Objects on images - distribution for every class",
+          "x_labels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "y_labels": [
+            "D00",
+            "D10",
+            "D20",
+            "D40"
+          ],
+          "z": [
+            [
+              2098,
+              2046,
+              1187,
+              451,
+              167,
+              34,
+              16,
+              5,
+              1
+            ],
+            [
+              3663,
+              1625,
+              533,
+              138,
+              40,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              5266,
+              653,
+              78,
+              7,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              5889,
+              104,
+              6,
+              5,
+              1,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "description": "Value = number of images where class has exactly x objects."
+        },
+        "classes_per_image": {
+          "type": "histogram",
+          "title": "Distinct classes per image",
+          "series": [
+            {
+              "name": "classes",
+              "data": [
+                {
+                  "x": "0",
+                  "y": 1200
+                },
+                {
+                  "x": "1",
+                  "y": 2702
+                },
+                {
+                  "x": "2",
+                  "y": 1914
+                },
+                {
+                  "x": "3",
+                  "y": 182
+                },
+                {
+                  "x": "4",
+                  "y": 7
+                }
+              ]
+            }
+          ]
+        },
+        "classes_treemap": {
+          "type": "treemap",
+          "title": "Average area of class objects on image",
+          "series": [
+            {
+              "data": [
+                {
+                  "x": "D00",
+                  "y": 5.0113
+                },
+                {
+                  "x": "D10",
+                  "y": 2.6904
+                },
+                {
+                  "x": "D20",
+                  "y": 10.5558
+                },
+                {
+                  "x": "D40",
+                  "y": 0.3363
+                }
+              ]
+            }
+          ],
+          "value_unit": "%"
+        }
+      },
+      "samples_summary": {
+        "sample_count": 10,
+        "slider_pairs": 10,
+        "samples_dir": "visualizations/country_views/united_states/samples",
+        "samples_manifest": "visualizations/country_views/united_states/samples/samples_manifest.json",
+        "annotated_samples_dir": "visualizations/country_views/united_states/samples/annotated",
+        "sample_annotations_dir": "visualizations/country_views/united_states/samples/annotations"
+      },
+      "spatial_heatmaps": {
+        "generated": true,
+        "dir": "visualizations/country_views/united_states/spatial_heatmaps",
+        "classes": [
+          {
+            "class": "D00",
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/D00.png"
+          },
+          {
+            "class": "D10",
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/D10.png"
+          },
+          {
+            "class": "D20",
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/D20.png"
+          },
+          {
+            "class": "D40",
+            "file": "visualizations/country_views/united_states/spatial_heatmaps/D40.png"
+          }
+        ]
+      }
+    }
+  }
+}

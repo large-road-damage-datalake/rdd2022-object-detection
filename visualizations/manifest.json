@@ -1,5 +1,5 @@
 {
-  "generated_at": 1775952370.3665712,
+  "generated_at": 1776004520.49261,
   "visualizations": [
     {
       "name": "class_distribution",
@@ -22,7 +22,7 @@
   ],
   "sample_images": {
     "location": "samples/",
-    "count": 38385,
+    "count": 47420,
     "status": "available"
   }
 }

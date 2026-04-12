@@ -1,16 +1,16 @@
-# RDD2022 Object Detection
+# RDD2022
 
 ## Overview
 
-RDD2022 Object Detection is a task-specific package derived from the RDD2022 benchmark data released through CRDDC 2022.
+RDD2022 is a task-specific package derived from the RDD2022 benchmark data released through CRDDC 2022.
 
 - Task: object_detection
-- Images: 38385
+- Images: 47420
 - Annotations: 65712
 - Classes: 12 (Block crack, D00, D01, D0w0, D10, D11, D20, D40, D43, D44, D50, Repair)
 - Annotation format: PASCAL VOC XML bounding boxes
 
-This package aggregates train annotations across seven country-specific subsets in local RDD2022 data.
+This package aggregates country-specific train annotations and also includes test image-only subsets in image-level statistics.
 
 ## Source Dataset
 

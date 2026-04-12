@@ -29,6 +29,10 @@
   },
   "imaging_setup": {
     "camera": "Crowdsensed smartphone and vehicle-mounted images",
+    "camera_viewpoint": [
+      "top-down",
+      "wide-view"
+    ],
     "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor conditions across multiple countries",
     "capture_height_mm": "Not reported",
@@ -115,10 +119,10 @@
     }
   ],
   "statistics": {
-    "n_images": 38385,
+    "n_images": 47420,
     "n_annotations": 65712,
-    "n_images_with_annotations": 38385,
-    "average_annotations_per_image": 1.711918718249316,
+    "n_images_with_annotations": 26661,
+    "average_annotations_per_image": 1.3857444116406579,
     "image_format": "voc",
     "class_distribution": {
       "D10": 11830,
@@ -137,31 +141,81 @@
     "split": {
       "china_drone_train": {
         "n_images": 2401,
-        "percentage": 0.06
+        "percentage": 0.05,
+        "n_images_with_annotations": 2396,
+        "annotation_coverage": 0.9979
       },
       "china_motorbike_train": {
         "n_images": 1977,
-        "percentage": 0.05
+        "percentage": 0.04,
+        "n_images_with_annotations": 1977,
+        "annotation_coverage": 1.0
+      },
+      "china_motorbike_test": {
+        "n_images": 500,
+        "percentage": 0.01,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       },
       "czech_train": {
         "n_images": 2829,
-        "percentage": 0.07
+        "percentage": 0.06,
+        "n_images_with_annotations": 1072,
+        "annotation_coverage": 0.3789
+      },
+      "czech_test": {
+        "n_images": 709,
+        "percentage": 0.01,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       },
       "india_train": {
         "n_images": 7706,
-        "percentage": 0.2
+        "percentage": 0.16,
+        "n_images_with_annotations": 3785,
+        "annotation_coverage": 0.4912
+      },
+      "india_test": {
+        "n_images": 1959,
+        "percentage": 0.04,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       },
       "japan_train": {
         "n_images": 10506,
-        "percentage": 0.27
+        "percentage": 0.22,
+        "n_images_with_annotations": 9712,
+        "annotation_coverage": 0.9244
+      },
+      "japan_test": {
+        "n_images": 2627,
+        "percentage": 0.06,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       },
       "norway_train": {
         "n_images": 8161,
-        "percentage": 0.21
+        "percentage": 0.17,
+        "n_images_with_annotations": 2914,
+        "annotation_coverage": 0.3571
+      },
+      "norway_test": {
+        "n_images": 2040,
+        "percentage": 0.04,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       },
       "united_states_train": {
         "n_images": 4805,
-        "percentage": 0.13
+        "percentage": 0.1,
+        "n_images_with_annotations": 4805,
+        "annotation_coverage": 1.0
+      },
+      "united_states_test": {
+        "n_images": 1200,
+        "percentage": 0.03,
+        "n_images_with_annotations": 0,
+        "annotation_coverage": 0.0
       }
     }
   },

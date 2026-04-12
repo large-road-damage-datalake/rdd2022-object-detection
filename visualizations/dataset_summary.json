@@ -1,5 +1,5 @@
 {
-  "total_images": 38385,
+  "total_images": 47420,
   "total_annotations": 65712,
   "total_classes": 12,
   "splits_breakdown": {
@@ -26,6 +26,11 @@
         "D10": 1096
       }
     },
+    "china_motorbike_test": {
+      "images": 500,
+      "annotations": 0,
+      "classes": {}
+    },
     "czech_train": {
       "images": 2829,
       "annotations": 1745,
@@ -35,6 +40,11 @@
         "D10": 399,
         "D20": 161
       }
+    },
+    "czech_test": {
+      "images": 709,
+      "annotations": 0,
+      "classes": {}
     },
     "india_train": {
       "images": 7706,
@@ -52,6 +62,11 @@
         "D0w0": 1
       }
     },
+    "india_test": {
+      "images": 1959,
+      "annotations": 0,
+      "classes": {}
+    },
     "japan_train": {
       "images": 10506,
       "annotations": 24754,
@@ -65,6 +80,11 @@
         "D50": 3553
       }
     },
+    "japan_test": {
+      "images": 2627,
+      "annotations": 0,
+      "classes": {}
+    },
     "norway_train": {
       "images": 8161,
       "annotations": 11229,
@@ -75,6 +95,11 @@
         "D10": 1730
       }
     },
+    "norway_test": {
+      "images": 2040,
+      "annotations": 0,
+      "classes": {}
+    },
     "united_states_train": {
       "images": 4805,
       "annotations": 11014,
@@ -84,6 +109,11 @@
         "D20": 834,
         "D40": 135
       }
+    },
+    "united_states_test": {
+      "images": 1200,
+      "annotations": 0,
+      "classes": {}
     }
   }
 }
