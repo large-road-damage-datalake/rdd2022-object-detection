@@ -1,0 +1,89 @@
+{
+  "total_images": 38385,
+  "total_annotations": 65712,
+  "total_classes": 12,
+  "splits_breakdown": {
+    "china_drone_train": {
+      "images": 2401,
+      "annotations": 3840,
+      "classes": {
+        "D10": 1263,
+        "D00": 1426,
+        "D20": 293,
+        "Repair": 769,
+        "D40": 86,
+        "Block crack": 3
+      }
+    },
+    "china_motorbike_train": {
+      "images": 1977,
+      "annotations": 4927,
+      "classes": {
+        "Repair": 277,
+        "D20": 641,
+        "D00": 2678,
+        "D40": 235,
+        "D10": 1096
+      }
+    },
+    "czech_train": {
+      "images": 2829,
+      "annotations": 1745,
+      "classes": {
+        "D00": 988,
+        "D40": 197,
+        "D10": 399,
+        "D20": 161
+      }
+    },
+    "india_train": {
+      "images": 7706,
+      "annotations": 8203,
+      "classes": {
+        "D40": 3187,
+        "D44": 1062,
+        "D00": 1555,
+        "D20": 2021,
+        "D01": 179,
+        "D11": 45,
+        "D10": 68,
+        "D50": 28,
+        "D43": 57,
+        "D0w0": 1
+      }
+    },
+    "japan_train": {
+      "images": 10506,
+      "annotations": 24754,
+      "classes": {
+        "D20": 6199,
+        "D40": 2243,
+        "D10": 3979,
+        "D00": 4049,
+        "D44": 3995,
+        "D43": 736,
+        "D50": 3553
+      }
+    },
+    "norway_train": {
+      "images": 8161,
+      "annotations": 11229,
+      "classes": {
+        "D00": 8570,
+        "D20": 468,
+        "D40": 461,
+        "D10": 1730
+      }
+    },
+    "united_states_train": {
+      "images": 4805,
+      "annotations": 11014,
+      "classes": {
+        "D10": 3295,
+        "D00": 6750,
+        "D20": 834,
+        "D40": 135
+      }
+    }
+  }
+}

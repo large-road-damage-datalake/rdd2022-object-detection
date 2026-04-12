@@ -1,0 +1,253 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "rdd2022-object-detection",
+    "name": "RDD2022 Object Detection",
+    "short_name": "rdd2022-od",
+    "description": "Object detection packaging of RDD2022, a multi-national road damage dataset released through CRDDC 2022.",
+    "year": 2022
+  },
+  "project_context": {
+    "task": "object_detection",
+    "tasks": [
+      "object_detection"
+    ],
+    "damage_types": [
+      "Block crack",
+      "D00",
+      "D01",
+      "D0w0",
+      "D10",
+      "D11",
+      "D20",
+      "D40",
+      "D43",
+      "D44",
+      "D50",
+      "Repair"
+    ]
+  },
+  "imaging_setup": {
+    "camera": "Crowdsensed smartphone and vehicle-mounted images",
+    "resolution": "Country-dependent source resolutions",
+    "lighting_conditions": "Real-world outdoor conditions across multiple countries",
+    "capture_height_mm": "Not reported",
+    "geotagged": true
+  },
+  "annotation_schema": [
+    {
+      "type": "bounding_box",
+      "description": "PASCAL VOC XML annotations for road damage categories",
+      "classes": [
+        {
+          "id": 1,
+          "name": "Block crack",
+          "description": "RDD2022 class: Block crack",
+          "color": "#294F71"
+        },
+        {
+          "id": 2,
+          "name": "D00",
+          "description": "Longitudinal Crack",
+          "color": "#529EE2"
+        },
+        {
+          "id": 3,
+          "name": "D01",
+          "description": "Longitudinal Crack (variant)",
+          "color": "#7BED54"
+        },
+        {
+          "id": 4,
+          "name": "D0w0",
+          "description": "RDD2022 class: D0w0",
+          "color": "#A43DC5"
+        },
+        {
+          "id": 5,
+          "name": "D10",
+          "description": "Transverse Crack",
+          "color": "#CD8C37"
+        },
+        {
+          "id": 6,
+          "name": "D11",
+          "description": "Transverse Crack (variant)",
+          "color": "#F6DBA8"
+        },
+        {
+          "id": 7,
+          "name": "D20",
+          "description": "Alligator Crack",
+          "color": "#202B1A"
+        },
+        {
+          "id": 8,
+          "name": "D40",
+          "description": "Pothole",
+          "color": "#497A8B"
+        },
+        {
+          "id": 9,
+          "name": "D43",
+          "description": "Pothole/Patch variant",
+          "color": "#72C9FC"
+        },
+        {
+          "id": 10,
+          "name": "D44",
+          "description": "Pothole/Patch variant",
+          "color": "#9B196E"
+        },
+        {
+          "id": 11,
+          "name": "D50",
+          "description": "Other damage class",
+          "color": "#C468DF"
+        },
+        {
+          "id": 12,
+          "name": "Repair",
+          "description": "Repair patch",
+          "color": "#EDB751"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 38385,
+    "n_annotations": 65712,
+    "n_images_with_annotations": 38385,
+    "average_annotations_per_image": 1.711918718249316,
+    "image_format": "voc",
+    "class_distribution": {
+      "D10": 11830,
+      "D00": 26016,
+      "D20": 10617,
+      "Repair": 1046,
+      "D40": 6544,
+      "Block crack": 3,
+      "D44": 5057,
+      "D01": 179,
+      "D11": 45,
+      "D50": 3581,
+      "D43": 793,
+      "D0w0": 1
+    },
+    "split": {
+      "china_drone_train": {
+        "n_images": 2401,
+        "percentage": 0.06
+      },
+      "china_motorbike_train": {
+        "n_images": 1977,
+        "percentage": 0.05
+      },
+      "czech_train": {
+        "n_images": 2829,
+        "percentage": 0.07
+      },
+      "india_train": {
+        "n_images": 7706,
+        "percentage": 0.2
+      },
+      "japan_train": {
+        "n_images": 10506,
+        "percentage": 0.27
+      },
+      "norway_train": {
+        "n_images": 8161,
+        "percentage": 0.21
+      },
+      "united_states_train": {
+        "n_images": 4805,
+        "percentage": 0.13
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "China",
+        "image_count": 4378
+      },
+      {
+        "name": "Czech Republic",
+        "image_count": 2829
+      },
+      {
+        "name": "India",
+        "image_count": 7706
+      },
+      {
+        "name": "Japan",
+        "image_count": 10506
+      },
+      {
+        "name": "Norway",
+        "image_count": 8161
+      },
+      {
+        "name": "United States",
+        "image_count": 4805
+      }
+    ],
+    "temporal_scope": "Published 2022"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Annotated for CRDDC 2022 with country-specific contributions",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Released as challenge benchmark"
+  },
+  "authors": [
+    {
+      "name": "Deeksha Arya",
+      "affiliation": "Indian Institute of Technology Roorkee / The University of Tokyo",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Hiroya Maeda",
+      "affiliation": "The University of Tokyo",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Sanjay Kumar Ghosh",
+      "affiliation": "Indian Institute of Technology Roorkee",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Durga Toshniwal",
+      "affiliation": "Indian Institute of Technology Roorkee",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Yoshihide Sekimoto",
+      "affiliation": "The University of Tokyo",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "CC BY-SA 4.0",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/rdd2022-object-detection",
+    "download": "https://github.com/sekilab/RoadDamageDetector",
+    "paper": "https://arxiv.org/abs/2209.08538",
+    "homepage": "https://github.com/sekilab/RoadDamageDetector"
+  },
+  "citation": {
+    "bibtex": "@article{arya2022rdd2022,\n  title = {RDD2022: A multi-national image dataset for automatic Road Damage Detection},\n  author = {Arya, Deeksha and Maeda, Hiroya and Ghosh, Sanjay Kumar and Toshniwal, Durga and Sekimoto, Yoshihide},\n  journal = {arXiv preprint arXiv:2209.08538},\n  year = {2022},\n  doi = {10.48550/arXiv.2209.08538}\n}"
+  },
+  "tags": [
+    "object-detection",
+    "road-damage",
+    "rdd2022",
+    "voc",
+    "multi-national"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "10.48550/arXiv.2209.08538",
+    "article_title": "RDD2022: A multi-national image dataset for automatic Road Damage Detection",
+    "journal": "arXiv preprint",
+    "year": 2022
+  }
+}
