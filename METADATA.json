@@ -36,7 +36,7 @@
       "top-down",
       "wide-view"
     ],
-    "resolution": "Varies by country; see resolution_by_country",
+    "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor conditions across multiple countries",
     "capture_height_mm": "Not reported",
     "geotagged": true,
