@@ -1,26 +1,7 @@
 {
   "samples": [
     {
-      "file": "sample_01_c6_D10-D20-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_003346.jpg",
-      "classes": [
-        "D10",
-        "D20",
-        "D40",
-        "D43",
-        "D44",
-        "D50"
-      ],
-      "num_classes": 6,
-      "objects": 8,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c6_D10-D20-D40_annotated.png",
-      "annotation_file": "annotations/sample_01_c6_D10-D20-D40_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_02_c6_D00-D10-D20.jpg",
+      "file": "sample_01_c6_D00-D10-D20.jpg",
       "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_011172.jpg",
       "classes": [
         "D00",
@@ -32,155 +13,228 @@
       ],
       "num_classes": 6,
       "objects": 8,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c6_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_02_c6_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c6_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_03_c6_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_012854.jpg",
+      "file": "sample_02_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_000000.jpg",
       "classes": [
         "D00",
         "D10",
         "D20",
-        "D43",
-        "D44",
-        "D50"
+        "D40"
       ],
-      "num_classes": 6,
-      "objects": 7,
+      "num_classes": 4,
+      "objects": 4,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c6_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_03_c6_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c4_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_04_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_005578.jpg",
+      "file": "sample_03_c2_D40-D44.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_005586.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 12,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_04_c5_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_05_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_011697.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D43",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 12,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_05_c5_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_06_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_008560.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D43",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 11,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_06_c5_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_07_c5_D10-D20-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_002311.jpg",
-      "classes": [
-        "D10",
-        "D20",
-        "D40",
-        "D44",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 11,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c5_D10-D20-D40_annotated.png",
-      "annotation_file": "annotations/sample_07_c5_D10-D20-D40_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_08_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_007937.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 10,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_08_c5_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_09_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_001428.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D44",
-        "D50"
-      ],
-      "num_classes": 5,
-      "objects": 10,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_09_c5_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_10_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_003893.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20",
         "D40",
         "D44"
       ],
-      "num_classes": 5,
-      "objects": 9,
+      "num_classes": 2,
+      "objects": 3,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_10_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c2_D40-D44_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_002793.jpg",
+      "classes": [
+        "D40"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_D40_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c3_D10-D20-D44.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_008378.jpg",
+      "classes": [
+        "D10",
+        "D20",
+        "D44"
+      ],
+      "num_classes": 3,
+      "objects": 5,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c3_D10-D20-D44_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c3_D00-D20-D43.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_013132.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D43"
+      ],
+      "num_classes": 3,
+      "objects": 3,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c3_D00-D20-D43_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_009775.jpg",
+      "classes": [
+        "D10"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_D10_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c2_D00-D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_001396.jpg",
+      "classes": [
+        "D00",
+        "D10"
+      ],
+      "num_classes": 2,
+      "objects": 7,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c2_D00-D10_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_09_c2_D00-D50.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_004189.jpg",
+      "classes": [
+        "D00",
+        "D50"
+      ],
+      "num_classes": 2,
+      "objects": 6,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c2_D00-D50_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_10_c3_D00-D20-D44.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_006983.jpg",
+      "classes": [
+        "D00",
+        "D20",
+        "D44"
+      ],
+      "num_classes": 3,
+      "objects": 5,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c3_D00-D20-D44_annotation.xml",
       "slider_ready": true
     }
   ],

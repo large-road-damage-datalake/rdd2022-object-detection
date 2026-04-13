@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>images</folder>
 	<filename>China_MotorBike_000319.jpg</filename>
@@ -52,7 +53,7 @@
 			<xmin>257</xmin>
 			<ymin>277</ymin>
 			<xmax>282</xmax>
-			<ymax>512</ymax>
+			<ymax>511</ymax>
 		</bndbox>
 	</object>
 	<object>

@@ -12,172 +12,221 @@
       ],
       "num_classes": 5,
       "objects": 15,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c5_D00-D10-D20_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_01_c5_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_02_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000151.jpg",
+      "file": "sample_02_c4_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_001369.jpg",
       "classes": [
         "D00",
         "D10",
         "D20",
-        "D40",
         "Repair"
       ],
-      "num_classes": 5,
-      "objects": 14,
+      "num_classes": 4,
+      "objects": 6,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_02_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c4_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_03_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001610.jpg",
+      "file": "sample_03_c3_D00-D20-Repair.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000000.jpg",
       "classes": [
         "D00",
-        "D10",
         "D20",
-        "D40",
         "Repair"
       ],
-      "num_classes": 5,
-      "objects": 14,
+      "num_classes": 3,
+      "objects": 4,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_03_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c3_D00-D20-Repair_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_04_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000801.jpg",
+      "file": "sample_04_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_000000.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D10"
       ],
-      "num_classes": 5,
-      "objects": 13,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_04_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_D10_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_05_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000419.jpg",
+      "file": "sample_05_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000766.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D00"
       ],
-      "num_classes": 5,
-      "objects": 13,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_05_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_D00_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_06_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001059.jpg",
+      "file": "sample_06_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_002400.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D00"
       ],
-      "num_classes": 5,
-      "objects": 13,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_06_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c1_D00_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_07_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001611.jpg",
+      "file": "sample_07_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001976.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D10"
       ],
-      "num_classes": 5,
-      "objects": 12,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_07_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_D10_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_08_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001424.jpg",
+      "file": "sample_08_c1_Repair.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_000685.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
         "Repair"
       ],
-      "num_classes": 5,
-      "objects": 12,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_08_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c1_Repair_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_09_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001965.jpg",
+      "file": "sample_09_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_001149.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D10"
       ],
-      "num_classes": 5,
-      "objects": 12,
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_09_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c1_D10_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_10_c5_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_MotorBike/train/images\\China_MotorBike_000296.jpg",
+      "file": "sample_10_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/China_Drone/train/images\\China_Drone_001884.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
-        "D40",
-        "Repair"
+        "D00"
       ],
-      "num_classes": 5,
-      "objects": 11,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 512,
+        "height": 512
+      },
+      "resized_from": {
+        "width": 512,
+        "height": 512
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c5_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_10_c5_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_D00_annotation.xml",
       "slider_ready": true
     }
   ],

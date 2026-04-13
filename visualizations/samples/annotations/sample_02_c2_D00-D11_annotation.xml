@@ -1,3 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
 <annotation>
 	<folder>images</folder>
 	<filename>India_000078.jpg</filename>
@@ -51,7 +52,7 @@
 		<bndbox>
 			<xmin>161</xmin>
 			<ymin>616</ymin>
-			<xmax>720</xmax>
+			<xmax>719</xmax>
 			<ymax>679</ymax>
 		</bndbox>
 	</object>

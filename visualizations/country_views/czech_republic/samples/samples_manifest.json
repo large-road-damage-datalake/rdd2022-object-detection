@@ -11,155 +11,216 @@
       ],
       "num_classes": 4,
       "objects": 6,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_01_c4_D00-D10-D20_annotated.png",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_01_c4_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_02_c4_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002942.jpg",
+      "file": "sample_02_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_000006.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D20",
+        "D00"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_D00_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_001544.jpg",
+      "classes": [
+        "D00"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c1_D00_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_000775.jpg",
+      "classes": [
+        "D10"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_D10_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002304.jpg",
+      "classes": [
+        "D00"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_D00_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_06_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_003589.jpg",
+      "classes": [
+        "D00"
+      ],
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_06_c1_D00_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_07_c1_D00.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_001159.jpg",
+      "classes": [
+        "D00"
+      ],
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
+      "annotation_mode": "bbox",
+      "annotation_format": "voc",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_07_c1_D00_annotation.xml",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_08_c1_D40.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_000392.jpg",
+      "classes": [
         "D40"
       ],
-      "num_classes": 4,
-      "objects": 4,
+      "num_classes": 1,
+      "objects": 2,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_02_c4_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_02_c4_D00-D10-D20_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_08_c1_D40_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_03_c3_D00-D10-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_000634.jpg",
+      "file": "sample_09_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002689.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D40"
+        "D10"
       ],
-      "num_classes": 3,
-      "objects": 8,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_03_c3_D00-D10-D40_annotated.png",
-      "annotation_file": "annotations/sample_03_c3_D00-D10-D40_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_09_c1_D10_annotation.xml",
       "slider_ready": true
     },
     {
-      "file": "sample_04_c3_D00-D10-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002998.jpg",
+      "file": "sample_10_c1_D10.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_001922.jpg",
       "classes": [
-        "D00",
-        "D10",
-        "D40"
+        "D10"
       ],
-      "num_classes": 3,
-      "objects": 6,
+      "num_classes": 1,
+      "objects": 1,
+      "image_size": {
+        "width": 600,
+        "height": 600
+      },
+      "resized_from": {
+        "width": 600,
+        "height": 600
+      },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
-      "annotated_file": "annotated/sample_04_c3_D00-D10-D40_annotated.png",
-      "annotation_file": "annotations/sample_04_c3_D00-D10-D40_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_05_c3_D00-D10-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_003117.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D40"
-      ],
-      "num_classes": 3,
-      "objects": 6,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_05_c3_D00-D10-D40_annotated.png",
-      "annotation_file": "annotations/sample_05_c3_D00-D10-D40_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_06_c3_D00-D10-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002541.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D40"
-      ],
-      "num_classes": 3,
-      "objects": 6,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_06_c3_D00-D10-D40_annotated.png",
-      "annotation_file": "annotations/sample_06_c3_D00-D10-D40_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_07_c3_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_002231.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20"
-      ],
-      "num_classes": 3,
-      "objects": 5,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_07_c3_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_07_c3_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_08_c3_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_003195.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20"
-      ],
-      "num_classes": 3,
-      "objects": 5,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_08_c3_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_08_c3_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_09_c3_D00-D10-D20.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_001120.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D20"
-      ],
-      "num_classes": 3,
-      "objects": 4,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_09_c3_D00-D10-D20_annotated.png",
-      "annotation_file": "annotations/sample_09_c3_D00-D10-D20_annotation.xml",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_10_c3_D00-D10-D40.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/Czech/train/images\\Czech_003001.jpg",
-      "classes": [
-        "D00",
-        "D10",
-        "D40"
-      ],
-      "num_classes": 3,
-      "objects": 4,
-      "annotation_mode": "bbox",
-      "annotation_format": "voc",
-      "annotated_file": "annotated/sample_10_c3_D00-D10-D40_annotated.png",
-      "annotation_file": "annotations/sample_10_c3_D00-D10-D40_annotation.xml",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_10_c1_D10_annotation.xml",
       "slider_ready": true
     }
   ],
