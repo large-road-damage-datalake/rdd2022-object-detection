@@ -49,7 +49,61 @@
           "D50": 3581,
           "D43": 793,
           "D0w0": 1
-        }
+        },
+        "resolutions": [
+          "512x512",
+          "540x540",
+          "600x600",
+          "640x640",
+          "720x720",
+          "1024x1024",
+          "1080x1080",
+          "3643x2041",
+          "3650x2044",
+          "4040x2035"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "512x512",
+            "count": 4878
+          },
+          {
+            "resolution": "540x540",
+            "count": 152
+          },
+          {
+            "resolution": "600x600",
+            "count": 16268
+          },
+          {
+            "resolution": "640x640",
+            "count": 6005
+          },
+          {
+            "resolution": "720x720",
+            "count": 9665
+          },
+          {
+            "resolution": "1024x1024",
+            "count": 191
+          },
+          {
+            "resolution": "1080x1080",
+            "count": 60
+          },
+          {
+            "resolution": "3643x2041",
+            "count": 3655
+          },
+          {
+            "resolution": "3650x2044",
+            "count": 1146
+          },
+          {
+            "resolution": "4040x2035",
+            "count": 5400
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -1229,7 +1283,16 @@
           "Repair": 1046,
           "D40": 321,
           "Block crack": 3
-        }
+        },
+        "resolutions": [
+          "512x512"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "512x512",
+            "count": 4878
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -1665,7 +1728,16 @@
           "D40": 197,
           "D10": 399,
           "D20": 161
-        }
+        },
+        "resolutions": [
+          "600x600"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "600x600",
+            "count": 3538
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -1989,7 +2061,16 @@
           "D50": 28,
           "D43": 57,
           "D0w0": 1
-        }
+        },
+        "resolutions": [
+          "720x720"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "720x720",
+            "count": 9665
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -2722,7 +2803,31 @@
           "D44": 3995,
           "D43": 736,
           "D50": 3553
-        }
+        },
+        "resolutions": [
+          "540x540",
+          "600x600",
+          "1024x1024",
+          "1080x1080"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "540x540",
+            "count": 152
+          },
+          {
+            "resolution": "600x600",
+            "count": 12730
+          },
+          {
+            "resolution": "1024x1024",
+            "count": 191
+          },
+          {
+            "resolution": "1080x1080",
+            "count": 60
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -3233,7 +3338,26 @@
           "D20": 468,
           "D40": 461,
           "D10": 1730
-        }
+        },
+        "resolutions": [
+          "3643x2041",
+          "3650x2044",
+          "4040x2035"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "3643x2041",
+            "count": 3655
+          },
+          {
+            "resolution": "3650x2044",
+            "count": 1146
+          },
+          {
+            "resolution": "4040x2035",
+            "count": 5400
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
@@ -3706,7 +3830,16 @@
           "D00": 6750,
           "D20": 834,
           "D40": 135
-        }
+        },
+        "resolutions": [
+          "640x640"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "640x640",
+            "count": 6005
+          }
+        ]
       },
       "artifacts": {
         "class_balance": {
