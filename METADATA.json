@@ -13,22 +13,13 @@
       "object_detection"
     ],
     "damage_types": [
-      "Block crack",
-      "D00",
-      "D01",
-      "D0w0",
-      "D10",
-      "D11",
-      "D20",
-      "D40",
-      "D43",
-      "D44",
-      "D50",
-      "Repair"
+      "crack",
+      "pothole"
     ],
     "task_classification": {
       "primary_task": "object_detection"
-    }
+    },
+    "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
     "camera": "Crowdsensed smartphone and vehicle-mounted images",
@@ -191,73 +182,97 @@
           "id": 1,
           "name": "Block crack",
           "description": "RDD2022 class: Block crack",
-          "color": "#294F71"
+          "color": "#294F71",
+          "canonical_name": "crack.block",
+          "instances": 3
         },
         {
           "id": 2,
           "name": "D00",
           "description": "Longitudinal Crack",
-          "color": "#529EE2"
+          "color": "#529EE2",
+          "canonical_name": "crack.longitudinal",
+          "instances": 26016
         },
         {
           "id": 3,
           "name": "D01",
           "description": "Longitudinal Crack (variant)",
-          "color": "#7BED54"
+          "color": "#7BED54",
+          "canonical_name": "crack.longitudinal",
+          "instances": 179
         },
         {
           "id": 4,
           "name": "D0w0",
           "description": "RDD2022 class: D0w0",
-          "color": "#A43DC5"
+          "color": "#A43DC5",
+          "canonical_name": "code.d0w0",
+          "instances": 1
         },
         {
           "id": 5,
           "name": "D10",
           "description": "Transverse Crack",
-          "color": "#CD8C37"
+          "color": "#CD8C37",
+          "canonical_name": "crack.transverse",
+          "instances": 11830
         },
         {
           "id": 6,
           "name": "D11",
           "description": "Transverse Crack (variant)",
-          "color": "#F6DBA8"
+          "color": "#F6DBA8",
+          "canonical_name": "crack.transverse",
+          "instances": 45
         },
         {
           "id": 7,
           "name": "D20",
           "description": "Alligator Crack",
-          "color": "#202B1A"
+          "color": "#202B1A",
+          "canonical_name": "crack.alligator",
+          "instances": 10617
         },
         {
           "id": 8,
           "name": "D40",
           "description": "Pothole",
-          "color": "#497A8B"
+          "color": "#497A8B",
+          "canonical_name": "pothole",
+          "instances": 6544
         },
         {
           "id": 9,
           "name": "D43",
           "description": "Pothole/Patch variant",
-          "color": "#72C9FC"
+          "color": "#72C9FC",
+          "canonical_name": "pothole",
+          "instances": 793
         },
         {
           "id": 10,
           "name": "D44",
           "description": "Pothole/Patch variant",
-          "color": "#9B196E"
+          "color": "#9B196E",
+          "canonical_name": "pothole",
+          "instances": 5057
         },
         {
           "id": 11,
           "name": "D50",
           "description": "Other damage class",
-          "color": "#C468DF"
+          "color": "#C468DF",
+          "canonical_name": "code.d50",
+          "instances": 3581
         },
         {
           "id": 12,
           "name": "Repair",
           "description": "Repair patch",
-          "color": "#EDB751"
+          "color": "#EDB751",
+          "canonical_name": "repair.general",
+          "instances": 1046
         }
       ]
     }
@@ -299,7 +314,7 @@
         "n_images": 1977,
         "percentage": 0.04,
         "n_images_with_annotations": 1977,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "147.30 MB",
         "dataset_size_bytes": 154458628,
         "dataset_file_count": 3954
@@ -308,7 +323,7 @@
         "n_images": 500,
         "percentage": 0.01,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "37.15 MB",
         "dataset_size_bytes": 38953343,
         "dataset_file_count": 500
@@ -326,7 +341,7 @@
         "n_images": 709,
         "percentage": 0.01,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "48.91 MB",
         "dataset_size_bytes": 51289399,
         "dataset_file_count": 709
@@ -344,7 +359,7 @@
         "n_images": 1959,
         "percentage": 0.04,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "126.62 MB",
         "dataset_size_bytes": 132775501,
         "dataset_file_count": 1959
@@ -362,7 +377,7 @@
         "n_images": 2627,
         "percentage": 0.06,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "207.65 MB",
         "dataset_size_bytes": 217738423,
         "dataset_file_count": 2627
@@ -380,7 +395,7 @@
         "n_images": 2040,
         "percentage": 0.04,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "2.06 GB",
         "dataset_size_bytes": 2207384233,
         "dataset_file_count": 2040
@@ -389,7 +404,7 @@
         "n_images": 4805,
         "percentage": 0.1,
         "n_images_with_annotations": 4805,
-        "annotation_coverage": 1.0,
+        "annotation_coverage": 1,
         "dataset_size": "345.09 MB",
         "dataset_size_bytes": 361848622,
         "dataset_file_count": 9610
@@ -398,7 +413,7 @@
         "n_images": 1200,
         "percentage": 0.03,
         "n_images_with_annotations": 0,
-        "annotation_coverage": 0.0,
+        "annotation_coverage": 0,
         "dataset_size": "85.05 MB",
         "dataset_size_bytes": 89179879,
         "dataset_file_count": 1200
@@ -459,7 +474,7 @@
     },
     {
       "name": "Hiroya Maeda",
-      "affiliation": "UrbanX Technologies, Inc.",
+      "affiliation": "The University of Tokyo",
       "role": "Dataset Creator"
     },
     {
@@ -486,7 +501,7 @@
     "homepage": "https://github.com/sekilab/RoadDamageDetector"
   },
   "citation": {
-    "bibtex": "@article{arya2022rdd2022,\n  title = {RDD2022: A multi-national image dataset for automatic Road Damage Detection},\n  author = {Arya, Deeksha and Maeda, Hiroya and Ghosh, Sanjay Kumar and Toshniwal, Durga and Sekimoto, Yoshihide},\n  journal = {arXiv preprint arXiv:2209.08538},\n  year = {2022},\n  doi = {10.48550/arXiv.2209.08538}\n}"
+    "bibtex": "@article{arya2022rdd2022,\n  title   = {RDD2022: A multi-national image dataset for automatic Road Damage Detection},\n  author  = {Arya, Deeksha and Maeda, Hiroya and Ghosh, Sanjay Kumar and Toshniwal, Durga and Sekimoto, Yoshihide},\n  journal = {arXiv preprint arXiv:2209.08538},\n  year    = {2022},\n  doi     = {10.48550/arXiv.2209.08538},\n  url     = {https://arxiv.org/abs/2209.08538}\n}\n"
   },
   "tags": [
     "object-detection",
@@ -501,5 +516,164 @@
     "article_title": "RDD2022: A multi-national image dataset for automatic Road Damage Detection",
     "journal": "arXiv preprint",
     "year": 2022
+  },
+  "class_taxonomy": {
+    "version": "road_damage_v1",
+    "classes": [
+      {
+        "canonical_name": "code.d0w0",
+        "display_name": "D0w0",
+        "damage_family": "unknown",
+        "damage_subtype": "",
+        "role": "code_legacy",
+        "is_damage_target": false,
+        "aliases": [
+          "D0w0"
+        ],
+        "source_labels": [
+          "D0w0"
+        ],
+        "taxonomy_source": "fallback_code",
+        "taxonomy_unresolved": true
+      },
+      {
+        "canonical_name": "code.d50",
+        "display_name": "D50",
+        "damage_family": "unknown",
+        "damage_subtype": "",
+        "role": "code_legacy",
+        "is_damage_target": false,
+        "aliases": [
+          "D50"
+        ],
+        "source_labels": [
+          "D50"
+        ],
+        "taxonomy_source": "fallback_code",
+        "taxonomy_unresolved": true
+      },
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "alligator",
+          "Alligator crack",
+          "Aligator Crack",
+          "D20"
+        ],
+        "source_labels": [
+          "D20"
+        ],
+        "taxonomy_source": "description",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.block",
+        "display_name": "Block Crack",
+        "damage_family": "crack",
+        "damage_subtype": "block",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "Block crack"
+        ],
+        "source_labels": [
+          "Block crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.longitudinal",
+        "display_name": "Longitudinal Crack",
+        "damage_family": "crack",
+        "damage_subtype": "longitudinal",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "longitudinal",
+          "Longitudinal crack",
+          "Lane Longitudinal Crack",
+          "D00",
+          "D01"
+        ],
+        "source_labels": [
+          "D00",
+          "D01"
+        ],
+        "taxonomy_source": "description",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "crack.transverse",
+        "display_name": "Transverse Crack",
+        "damage_family": "crack",
+        "damage_subtype": "transverse",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "transverse",
+          "Transverse crack",
+          "Transvers Crack",
+          "D10",
+          "D11"
+        ],
+        "source_labels": [
+          "D10",
+          "D11"
+        ],
+        "taxonomy_source": "description",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "pothole",
+        "display_name": "Pothole",
+        "damage_family": "pothole",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "is_damage_target": true,
+        "aliases": [
+          "pothole",
+          "D40",
+          "D43",
+          "D44"
+        ],
+        "source_labels": [
+          "D40",
+          "D43",
+          "D44"
+        ],
+        "taxonomy_source": "description",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "repair.general",
+        "display_name": "Repair",
+        "damage_family": "patch_repair",
+        "damage_subtype": "generic",
+        "role": "repair",
+        "is_damage_target": false,
+        "aliases": [
+          "Repair"
+        ],
+        "source_labels": [
+          "Repair"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      }
+    ],
+    "damage_types": [
+      "crack",
+      "pothole"
+    ],
+    "unresolved_labels": [
+      "D0w0",
+      "D50"
+    ]
   }
 }
