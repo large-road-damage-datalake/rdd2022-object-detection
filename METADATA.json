@@ -522,7 +522,7 @@
     "classes": [
       {
         "canonical_name": "code.d0w0",
-        "display_name": "Code D0w0",
+        "display_name": "D0w0",
         "damage_family": "unknown",
         "damage_subtype": "",
         "role": "unknown",
@@ -543,7 +543,7 @@
       },
       {
         "canonical_name": "code.d50",
-        "display_name": "Code D50",
+        "display_name": "D50",
         "damage_family": "unknown",
         "damage_subtype": "",
         "role": "unknown",
