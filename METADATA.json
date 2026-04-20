@@ -22,7 +22,7 @@
     "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
-    "camera": "Crowdsensed smartphone and vehicle-mounted images",
+    "camera": "Crowdsensed smartphone/camera captures from motorbikes, cars, and drones",
     "camera_viewpoint": [
       "top-down",
       "wide-view"
@@ -192,7 +192,7 @@
           "description": "Longitudinal Crack",
           "color": "#529EE2",
           "canonical_name": "crack.longitudinal",
-          "instances": 26016
+          "instances": 26017
         },
         {
           "id": 3,
@@ -201,14 +201,6 @@
           "color": "#7BED54",
           "canonical_name": "crack.longitudinal",
           "instances": 179
-        },
-        {
-          "id": 4,
-          "name": "D0w0",
-          "description": "RDD2022 class: D0w0",
-          "color": "#A43DC5",
-          "canonical_name": "code.d0w0",
-          "instances": 1
         },
         {
           "id": 5,
@@ -245,7 +237,7 @@
         {
           "id": 9,
           "name": "D43",
-          "description": "Pothole/Patch variant",
+          "description": "Crosswalk blur",
           "color": "#72C9FC",
           "canonical_name": "pothole",
           "instances": 793
@@ -253,7 +245,7 @@
         {
           "id": 10,
           "name": "D44",
-          "description": "Pothole/Patch variant",
+          "description": "White line blur",
           "color": "#9B196E",
           "canonical_name": "pothole",
           "instances": 5057
@@ -261,9 +253,9 @@
         {
           "id": 11,
           "name": "D50",
-          "description": "Other damage class",
+          "description": "Manhole Cover",
           "color": "#C468DF",
-          "canonical_name": "code.d50",
+          "canonical_name": "context.street_inventory",
           "instances": 3581
         },
         {
@@ -288,7 +280,7 @@
     "image_format": "voc",
     "class_distribution": {
       "D10": 11830,
-      "D00": 26016,
+      "D00": 26017,
       "D20": 10617,
       "Repair": 1046,
       "D40": 6544,
@@ -297,8 +289,7 @@
       "D01": 179,
       "D11": 45,
       "D50": 3581,
-      "D43": 793,
-      "D0w0": 1
+      "D43": 793
     },
     "split": {
       "china_drone_train": {
@@ -521,44 +512,24 @@
     "version": "road_damage_v2",
     "classes": [
       {
-        "canonical_name": "code.d0w0",
-        "display_name": "D0w0",
-        "damage_family": "unknown",
-        "damage_subtype": "",
-        "role": "unknown",
-        "semantic_role": "unknown",
-        "training_role": "ignore",
-        "status": "provisional",
+        "canonical_name": "context.street_inventory",
+        "display_name": "Manhole Cover",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "street_inventory",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
         "is_damage_target": false,
         "aliases": [
-          "D0w0"
-        ],
-        "source_labels": [
-          "D0w0"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": true,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "code.d50",
-        "display_name": "D50",
-        "damage_family": "unknown",
-        "damage_subtype": "",
-        "role": "unknown",
-        "semantic_role": "unknown",
-        "training_role": "ignore",
-        "status": "provisional",
-        "is_damage_target": false,
-        "aliases": [
+          "Manhole Cover",
           "D50"
         ],
         "source_labels": [
           "D50"
         ],
         "taxonomy_source": "codebook",
-        "taxonomy_unresolved": true,
+        "taxonomy_unresolved": false,
         "mapping_type": "codebook-based",
         "mapping_confidence": "high"
       },
@@ -715,9 +686,6 @@
       "crack",
       "pothole"
     ],
-    "unresolved_labels": [
-      "D0w0",
-      "D50"
-    ]
+    "unresolved_labels": []
   }
 }
