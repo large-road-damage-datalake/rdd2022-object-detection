@@ -518,14 +518,17 @@
     "year": 2022
   },
   "class_taxonomy": {
-    "version": "road_damage_v1",
+    "version": "road_damage_v2",
     "classes": [
       {
         "canonical_name": "code.d0w0",
-        "display_name": "D0w0",
+        "display_name": "Code D0w0",
         "damage_family": "unknown",
         "damage_subtype": "",
-        "role": "code_legacy",
+        "role": "unknown",
+        "semantic_role": "unknown",
+        "training_role": "ignore",
+        "status": "provisional",
         "is_damage_target": false,
         "aliases": [
           "D0w0"
@@ -533,15 +536,20 @@
         "source_labels": [
           "D0w0"
         ],
-        "taxonomy_source": "fallback_code",
-        "taxonomy_unresolved": true
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": true,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "code.d50",
-        "display_name": "D50",
+        "display_name": "Code D50",
         "damage_family": "unknown",
         "damage_subtype": "",
-        "role": "code_legacy",
+        "role": "unknown",
+        "semantic_role": "unknown",
+        "training_role": "ignore",
+        "status": "provisional",
         "is_damage_target": false,
         "aliases": [
           "D50"
@@ -549,8 +557,10 @@
         "source_labels": [
           "D50"
         ],
-        "taxonomy_source": "fallback_code",
-        "taxonomy_unresolved": true
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": true,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.alligator",
@@ -558,6 +568,9 @@
         "damage_family": "crack",
         "damage_subtype": "alligator",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "alligator",
@@ -568,8 +581,10 @@
         "source_labels": [
           "D20"
         ],
-        "taxonomy_source": "description",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.block",
@@ -577,15 +592,21 @@
         "damage_family": "crack",
         "damage_subtype": "block",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "Block crack"
+          "Block crack",
+          "Sealed Block Crack"
         ],
         "source_labels": [
           "Block crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.longitudinal",
@@ -593,11 +614,15 @@
         "damage_family": "crack",
         "damage_subtype": "longitudinal",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "longitudinal",
           "Longitudinal crack",
           "Lane Longitudinal Crack",
+          "Sealed Longitudinal Crack",
           "D00",
           "D01"
         ],
@@ -605,8 +630,10 @@
           "D00",
           "D01"
         ],
-        "taxonomy_source": "description",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "crack.transverse",
@@ -614,11 +641,16 @@
         "damage_family": "crack",
         "damage_subtype": "transverse",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "transverse",
           "Transverse crack",
           "Transvers Crack",
+          "Sealed Transvers Cracks",
+          "Sealed Transverse Crack",
           "D10",
           "D11"
         ],
@@ -626,8 +658,10 @@
           "D10",
           "D11"
         ],
-        "taxonomy_source": "description",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "pothole",
@@ -635,6 +669,9 @@
         "damage_family": "pothole",
         "damage_subtype": "generic",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "pothole",
@@ -647,8 +684,10 @@
           "D43",
           "D44"
         ],
-        "taxonomy_source": "description",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       },
       {
         "canonical_name": "repair.general",
@@ -656,6 +695,9 @@
         "damage_family": "patch_repair",
         "damage_subtype": "generic",
         "role": "repair",
+        "semantic_role": "repair",
+        "training_role": "context",
+        "status": "stable",
         "is_damage_target": false,
         "aliases": [
           "Repair"
@@ -663,8 +705,10 @@
         "source_labels": [
           "Repair"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
