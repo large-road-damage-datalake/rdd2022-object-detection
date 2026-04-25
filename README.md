@@ -7,7 +7,7 @@ RDD2022 is a task-specific package derived from the RDD2022 benchmark data relea
 - Task: object_detection
 - Images: 47420
 - Annotations: 65712
-- Classes: 12 (Block crack, D00, D01, D0w0, D10, D11, D20, D40, D43, D44, D50, Repair)
+- Classes: 11 (Block crack, D00, D01, D10, D11, D20, D40, D43, D44, D50, Repair)
 - Annotation format: PASCAL VOC XML bounding boxes
 
 This package aggregates country-specific train annotations and also includes test image-only subsets in image-level statistics.

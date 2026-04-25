@@ -22,7 +22,7 @@
     "label_taxonomy_version": "road_damage_v1"
   },
   "imaging_setup": {
-    "camera": "Crowdsensed smartphone/camera captures from motorbikes, cars, and drones",
+    "camera": "Crowdsensed smartphone, vehicle-mounted and drone images",
     "camera_viewpoint": [
       "top-down",
       "wide-view"
@@ -30,148 +30,7 @@
     "resolution": "Country-dependent source resolutions",
     "lighting_conditions": "Real-world outdoor conditions across multiple countries",
     "capture_height_mm": "Not reported",
-    "geotagged": true,
-    "resolution_by_country": [
-      {
-        "name": "China",
-        "resolutions": [
-          "512x512"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "512x512",
-            "count": 4878
-          }
-        ]
-      },
-      {
-        "name": "Czech Republic",
-        "resolutions": [
-          "600x600"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "600x600",
-            "count": 3538
-          }
-        ]
-      },
-      {
-        "name": "India",
-        "resolutions": [
-          "720x720"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "720x720",
-            "count": 9665
-          }
-        ]
-      },
-      {
-        "name": "Japan",
-        "resolutions": [
-          "540x540",
-          "600x600",
-          "1024x1024",
-          "1080x1080"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "540x540",
-            "count": 152
-          },
-          {
-            "resolution": "600x600",
-            "count": 12730
-          },
-          {
-            "resolution": "1024x1024",
-            "count": 191
-          },
-          {
-            "resolution": "1080x1080",
-            "count": 60
-          }
-        ]
-      },
-      {
-        "name": "Norway",
-        "resolutions": [
-          "3643x2041",
-          "3650x2044",
-          "4040x2035"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "3643x2041",
-            "count": 3655
-          },
-          {
-            "resolution": "3650x2044",
-            "count": 1146
-          },
-          {
-            "resolution": "4040x2035",
-            "count": 5400
-          }
-        ]
-      },
-      {
-        "name": "United States",
-        "resolutions": [
-          "640x640"
-        ],
-        "resolution_details": [
-          {
-            "resolution": "640x640",
-            "count": 6005
-          }
-        ]
-      }
-    ],
-    "resolution_details": [
-      {
-        "resolution": "512x512",
-        "count": 4878
-      },
-      {
-        "resolution": "540x540",
-        "count": 152
-      },
-      {
-        "resolution": "600x600",
-        "count": 16268
-      },
-      {
-        "resolution": "640x640",
-        "count": 6005
-      },
-      {
-        "resolution": "720x720",
-        "count": 9665
-      },
-      {
-        "resolution": "1024x1024",
-        "count": 191
-      },
-      {
-        "resolution": "1080x1080",
-        "count": 60
-      },
-      {
-        "resolution": "3643x2041",
-        "count": 3655
-      },
-      {
-        "resolution": "3650x2044",
-        "count": 1146
-      },
-      {
-        "resolution": "4040x2035",
-        "count": 5400
-      }
-    ]
+    "geotagged": true
   },
   "annotation_schema": [
     {
@@ -181,8 +40,8 @@
         {
           "id": 1,
           "name": "Block crack",
-          "description": "RDD2022 class: Block crack",
-          "color": "#294F71",
+          "description": "Block Crack",
+          "color": "#6D4C41",
           "canonical_name": "crack.block",
           "instances": 3
         },
@@ -190,7 +49,7 @@
           "id": 2,
           "name": "D00",
           "description": "Longitudinal Crack",
-          "color": "#529EE2",
+          "color": "#D84315",
           "canonical_name": "crack.longitudinal",
           "instances": 26017
         },
@@ -198,71 +57,71 @@
           "id": 3,
           "name": "D01",
           "description": "Longitudinal Crack (variant)",
-          "color": "#7BED54",
+          "color": "#FF7043",
           "canonical_name": "crack.longitudinal",
           "instances": 179
         },
         {
-          "id": 5,
+          "id": 4,
           "name": "D10",
           "description": "Transverse Crack",
-          "color": "#CD8C37",
+          "color": "#F4511E",
           "canonical_name": "crack.transverse",
           "instances": 11830
         },
         {
-          "id": 6,
+          "id": 5,
           "name": "D11",
           "description": "Transverse Crack (variant)",
-          "color": "#F6DBA8",
+          "color": "#FF8A65",
           "canonical_name": "crack.transverse",
           "instances": 45
         },
         {
-          "id": 7,
+          "id": 6,
           "name": "D20",
           "description": "Alligator Crack",
-          "color": "#202B1A",
+          "color": "#3949AB",
           "canonical_name": "crack.alligator",
           "instances": 10617
         },
         {
-          "id": 8,
+          "id": 7,
           "name": "D40",
           "description": "Pothole",
-          "color": "#497A8B",
+          "color": "#5E35B1",
           "canonical_name": "pothole",
           "instances": 6544
         },
         {
-          "id": 9,
+          "id": 8,
           "name": "D43",
           "description": "Crosswalk blur",
-          "color": "#72C9FC",
-          "canonical_name": "pothole",
+          "color": "#00897B",
+          "canonical_name": "context.road_marking",
           "instances": 793
         },
         {
-          "id": 10,
+          "id": 9,
           "name": "D44",
           "description": "White line blur",
-          "color": "#9B196E",
-          "canonical_name": "pothole",
+          "color": "#43A047",
+          "canonical_name": "context.road_marking",
           "instances": 5057
         },
         {
-          "id": 11,
+          "id": 10,
           "name": "D50",
           "description": "Manhole Cover",
-          "color": "#C468DF",
+          "color": "#546E7A",
           "canonical_name": "context.street_inventory",
           "instances": 3581
         },
         {
-          "id": 12,
+          "id": 11,
           "name": "Repair",
           "description": "Repair patch",
-          "color": "#EDB751",
+          "color": "#8E24AA",
           "canonical_name": "repair.general",
           "instances": 1046
         }
@@ -512,52 +371,6 @@
     "version": "road_damage_v2",
     "classes": [
       {
-        "canonical_name": "context.street_inventory",
-        "display_name": "Manhole Cover",
-        "damage_family": "context_non_damage",
-        "damage_subtype": "street_inventory",
-        "role": "context",
-        "semantic_role": "non_road_context",
-        "training_role": "context",
-        "status": "dataset_specific",
-        "is_damage_target": false,
-        "aliases": [
-          "Manhole Cover",
-          "D50"
-        ],
-        "source_labels": [
-          "D50"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
-        "canonical_name": "crack.alligator",
-        "display_name": "Alligator Crack",
-        "damage_family": "crack",
-        "damage_subtype": "alligator",
-        "role": "damage_target",
-        "semantic_role": "damage",
-        "training_role": "target",
-        "status": "stable",
-        "is_damage_target": true,
-        "aliases": [
-          "alligator",
-          "Alligator crack",
-          "Aligator Crack",
-          "D20"
-        ],
-        "source_labels": [
-          "D20"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      },
-      {
         "canonical_name": "crack.block",
         "display_name": "Block Crack",
         "damage_family": "crack",
@@ -568,8 +381,7 @@
         "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "Block crack",
-          "Sealed Block Crack"
+          "Block crack"
         ],
         "source_labels": [
           "Block crack"
@@ -590,10 +402,7 @@
         "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "longitudinal",
-          "Longitudinal crack",
-          "Lane Longitudinal Crack",
-          "Sealed Longitudinal Crack",
+          "Longitudinal Crack",
           "D00",
           "D01"
         ],
@@ -617,17 +426,35 @@
         "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "transverse",
-          "Transverse crack",
-          "Transvers Crack",
-          "Sealed Transvers Cracks",
-          "Sealed Transverse Crack",
+          "Transverse Crack",
           "D10",
           "D11"
         ],
         "source_labels": [
           "D10",
           "D11"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "crack.alligator",
+        "display_name": "Alligator Crack",
+        "damage_family": "crack",
+        "damage_subtype": "alligator",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "Alligator Crack",
+          "D20"
+        ],
+        "source_labels": [
+          "D20"
         ],
         "taxonomy_source": "codebook",
         "taxonomy_unresolved": false,
@@ -645,15 +472,58 @@
         "status": "stable",
         "is_damage_target": true,
         "aliases": [
-          "pothole",
-          "D40",
+          "Pothole",
+          "D40"
+        ],
+        "source_labels": [
+          "D40"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.road_marking",
+        "display_name": "Road Marking",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "road_marking",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "Crosswalk Blur",
+          "White Line Blur",
           "D43",
           "D44"
         ],
         "source_labels": [
-          "D40",
           "D43",
           "D44"
+        ],
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
+      },
+      {
+        "canonical_name": "context.street_inventory",
+        "display_name": "Manhole Cover",
+        "damage_family": "context_non_damage",
+        "damage_subtype": "street_inventory",
+        "role": "context",
+        "semantic_role": "non_road_context",
+        "training_role": "context",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "Manhole Cover",
+          "D50"
+        ],
+        "source_labels": [
+          "D50"
         ],
         "taxonomy_source": "codebook",
         "taxonomy_unresolved": false,
