@@ -2,10 +2,68 @@
   "total_images": 47420,
   "total_annotations": 65712,
   "total_classes": 12,
+  "annotated_images": 26661,
+  "annotation_coverage": 0.5622311261071278,
+  "image_resolution_histogram": {
+    "512x512": 4878,
+    "540x540": 152,
+    "600x600": 16268,
+    "640x640": 6005,
+    "720x720": 9665,
+    "1024x1024": 191,
+    "1080x1080": 60,
+    "3643x2041": 3655,
+    "3650x2044": 1146,
+    "4040x2035": 5400
+  },
+  "resolution_details": [
+    {
+      "resolution": "512x512",
+      "count": 4878
+    },
+    {
+      "resolution": "540x540",
+      "count": 152
+    },
+    {
+      "resolution": "600x600",
+      "count": 16268
+    },
+    {
+      "resolution": "640x640",
+      "count": 6005
+    },
+    {
+      "resolution": "720x720",
+      "count": 9665
+    },
+    {
+      "resolution": "1024x1024",
+      "count": 191
+    },
+    {
+      "resolution": "1080x1080",
+      "count": 60
+    },
+    {
+      "resolution": "3643x2041",
+      "count": 3655
+    },
+    {
+      "resolution": "3650x2044",
+      "count": 1146
+    },
+    {
+      "resolution": "4040x2035",
+      "count": 5400
+    }
+  ],
   "splits_breakdown": {
     "china_drone_train": {
       "images": 2401,
       "annotations": 3840,
+      "annotated_images": 2396,
+      "annotation_coverage": 0.9979175343606831,
       "classes": {
         "D10": 1263,
         "D00": 1426,
@@ -13,42 +71,67 @@
         "Repair": 769,
         "D40": 86,
         "Block crack": 3
+      },
+      "image_resolution_histogram": {
+        "512x512": 2401
       }
     },
     "china_motorbike_train": {
       "images": 1977,
       "annotations": 4927,
+      "annotated_images": 1977,
+      "annotation_coverage": 1.0,
       "classes": {
         "Repair": 277,
         "D20": 641,
         "D00": 2678,
         "D40": 235,
         "D10": 1096
+      },
+      "image_resolution_histogram": {
+        "512x512": 1977
       }
     },
     "china_motorbike_test": {
       "images": 500,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "512x512": 500
+      }
     },
     "czech_train": {
       "images": 2829,
       "annotations": 1745,
+      "annotated_images": 1072,
+      "annotation_coverage": 0.3789324849770237,
       "classes": {
         "D00": 988,
         "D40": 197,
         "D10": 399,
         "D20": 161
+      },
+      "image_resolution_histogram": {
+        "600x600": 2829
       }
     },
     "czech_test": {
       "images": 709,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "600x600": 709
+      }
     },
     "india_train": {
       "images": 7706,
       "annotations": 8203,
+      "annotated_images": 3785,
+      "annotation_coverage": 0.4911757072411108,
       "classes": {
         "D40": 3187,
         "D44": 1062,
@@ -60,16 +143,26 @@
         "D50": 28,
         "D43": 57,
         "D0w0": 1
+      },
+      "image_resolution_histogram": {
+        "720x720": 7706
       }
     },
     "india_test": {
       "images": 1959,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "720x720": 1959
+      }
     },
     "japan_train": {
       "images": 10506,
       "annotations": 24754,
+      "annotated_images": 9712,
+      "annotation_coverage": 0.9244241385874739,
       "classes": {
         "D20": 6199,
         "D40": 2243,
@@ -78,42 +171,80 @@
         "D44": 3995,
         "D43": 736,
         "D50": 3553
+      },
+      "image_resolution_histogram": {
+        "540x540": 124,
+        "600x600": 10187,
+        "1024x1024": 147,
+        "1080x1080": 48
       }
     },
     "japan_test": {
       "images": 2627,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "540x540": 28,
+        "600x600": 2543,
+        "1024x1024": 44,
+        "1080x1080": 12
+      }
     },
     "norway_train": {
       "images": 8161,
       "annotations": 11229,
+      "annotated_images": 2914,
+      "annotation_coverage": 0.35706408528366623,
       "classes": {
         "D00": 8570,
         "D20": 468,
         "D40": 461,
         "D10": 1730
+      },
+      "image_resolution_histogram": {
+        "3643x2041": 2896,
+        "3650x2044": 923,
+        "4040x2035": 4342
       }
     },
     "norway_test": {
       "images": 2040,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "3643x2041": 759,
+        "3650x2044": 223,
+        "4040x2035": 1058
+      }
     },
     "united_states_train": {
       "images": 4805,
       "annotations": 11014,
+      "annotated_images": 4805,
+      "annotation_coverage": 1.0,
       "classes": {
         "D10": 3295,
         "D00": 6750,
         "D20": 834,
         "D40": 135
+      },
+      "image_resolution_histogram": {
+        "640x640": 4805
       }
     },
     "united_states_test": {
       "images": 1200,
       "annotations": 0,
-      "classes": {}
+      "annotated_images": 0,
+      "annotation_coverage": 0.0,
+      "classes": {},
+      "image_resolution_histogram": {
+        "640x640": 1200
+      }
     }
   }
 }
