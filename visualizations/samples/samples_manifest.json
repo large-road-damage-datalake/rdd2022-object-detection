@@ -166,25 +166,30 @@
       "slider_ready": true
     },
     {
-      "file": "sample_08_c1_D0w0.jpg",
-      "source": "D:/PhD/Datasets/object_detection/RDD2022/India/train/images\\India_006389.jpg",
+      "file": "sample_08_c6_D00-D10-D20.jpg",
+      "source": "D:/PhD/Datasets/object_detection/RDD2022/Japan/train/images\\Japan_011172.jpg",
       "classes": [
-        "D0w0"
+        "D00",
+        "D10",
+        "D20",
+        "D43",
+        "D44",
+        "D50"
       ],
-      "num_classes": 1,
-      "objects": 1,
+      "num_classes": 6,
+      "objects": 8,
       "image_size": {
-        "width": 720,
-        "height": 720
+        "width": 600,
+        "height": 600
       },
       "resized_from": {
-        "width": 720,
-        "height": 720
+        "width": 600,
+        "height": 600
       },
       "annotation_mode": "bbox",
       "annotation_format": "voc",
       "annotated_file": null,
-      "annotation_file": "annotations/sample_08_c1_D0w0_annotation.xml",
+      "annotation_file": "annotations/sample_08_c6_D00-D10-D20_annotation.xml",
       "slider_ready": true
     },
     {

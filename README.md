@@ -10,14 +10,15 @@ RDD2022 is a task-specific package derived from the RDD2022 benchmark data relea
 - Classes: 11 (Block crack, D00, D01, D10, D11, D20, D40, D43, D44, D50, Repair)
 - Annotation format: PASCAL VOC XML bounding boxes
 
-This package aggregates country-specific train annotations and also includes test image-only subsets in image-level statistics.
+This package aggregates country-specific train annotations and also includes unannotated test image subsets, which count toward image totals and resolutions but not toward per-image annotation statistics.
 
 ## Source Dataset
 
 - Name: RDD2022 (RoadDamageDetector / CRDDC 2022)
 - Source URL: https://github.com/sekilab/RoadDamageDetector
-- Paper: https://arxiv.org/abs/2209.08538
-- arXiv DOI: 10.48550/arXiv.2209.08538
+- Paper: https://doi.org/10.1002/gdj3.260
+- Dataset DOI: 10.6084/m9.figshare.21431547.v1
+- Preprint: arXiv:2209.08538
 
 ## Authors
 
@@ -29,7 +30,7 @@ This package aggregates country-specific train annotations and also includes tes
 
 ## License
 
-Images in the source dataset are distributed under CC BY-SA 4.0.
+The source dataset deposit is distributed under CC BY 4.0 (see LICENSE.md).
 
 ## Repository Links
 

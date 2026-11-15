@@ -9,10 +9,10 @@
   "data": [
     [
       "D00",
-      13548,
-      26016,
-      1.9203,
-      5.056
+      13549,
+      26017,
+      1.9202,
+      5.0559
     ],
     [
       "D10",
@@ -83,13 +83,6 @@
       3,
       1.0,
       5.065
-    ],
-    [
-      "D0w0",
-      1,
-      1,
-      1.0,
-      3.8378
     ]
   ],
   "description": "Images column counts images containing at least one object of class.",

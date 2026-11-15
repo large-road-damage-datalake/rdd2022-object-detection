@@ -273,9 +273,9 @@
     "n_images": 47420,
     "n_annotations": 65712,
     "n_images_with_annotations": 26661,
-    "average_annotations_per_image": 1.3857444116406579,
+    "average_annotations_per_image": 1.711918718249316,
     "dataset_size": "12.88 GB",
-    "dataset_size_bytes": 13832475879,
+    "dataset_size_bytes": 13832475878,
     "dataset_file_count": 85805,
     "image_format": "voc",
     "class_distribution": {
@@ -299,7 +299,8 @@
         "annotation_coverage": 0.9979,
         "dataset_size": "161.69 MB",
         "dataset_size_bytes": 169548077,
-        "dataset_file_count": 4802
+        "dataset_file_count": 4802,
+        "annotated": true
       },
       "china_motorbike_train": {
         "n_images": 1977,
@@ -308,7 +309,8 @@
         "annotation_coverage": 1,
         "dataset_size": "147.30 MB",
         "dataset_size_bytes": 154458628,
-        "dataset_file_count": 3954
+        "dataset_file_count": 3954,
+        "annotated": true
       },
       "china_motorbike_test": {
         "n_images": 500,
@@ -317,7 +319,8 @@
         "annotation_coverage": 0,
         "dataset_size": "37.15 MB",
         "dataset_size_bytes": 38953343,
-        "dataset_file_count": 500
+        "dataset_file_count": 500,
+        "annotated": false
       },
       "czech_train": {
         "n_images": 2829,
@@ -326,7 +329,8 @@
         "annotation_coverage": 0.3789,
         "dataset_size": "196.31 MB",
         "dataset_size_bytes": 205844599,
-        "dataset_file_count": 5658
+        "dataset_file_count": 5658,
+        "annotated": true
       },
       "czech_test": {
         "n_images": 709,
@@ -335,7 +339,8 @@
         "annotation_coverage": 0,
         "dataset_size": "48.91 MB",
         "dataset_size_bytes": 51289399,
-        "dataset_file_count": 709
+        "dataset_file_count": 709,
+        "annotated": false
       },
       "india_train": {
         "n_images": 7706,
@@ -343,8 +348,9 @@
         "n_images_with_annotations": 3785,
         "annotation_coverage": 0.4912,
         "dataset_size": "498.72 MB",
-        "dataset_size_bytes": 522941840,
-        "dataset_file_count": 15412
+        "dataset_size_bytes": 522941839,
+        "dataset_file_count": 15412,
+        "annotated": true
       },
       "india_test": {
         "n_images": 1959,
@@ -353,7 +359,8 @@
         "annotation_coverage": 0,
         "dataset_size": "126.62 MB",
         "dataset_size_bytes": 132775501,
-        "dataset_file_count": 1959
+        "dataset_file_count": 1959,
+        "annotated": false
       },
       "japan_train": {
         "n_images": 10506,
@@ -362,7 +369,8 @@
         "annotation_coverage": 0.9244,
         "dataset_size": "819.96 MB",
         "dataset_size_bytes": 859794763,
-        "dataset_file_count": 21012
+        "dataset_file_count": 21012,
+        "annotated": true
       },
       "japan_test": {
         "n_images": 2627,
@@ -371,7 +379,8 @@
         "annotation_coverage": 0,
         "dataset_size": "207.65 MB",
         "dataset_size_bytes": 217738423,
-        "dataset_file_count": 2627
+        "dataset_file_count": 2627,
+        "annotated": false
       },
       "norway_train": {
         "n_images": 8161,
@@ -380,7 +389,8 @@
         "annotation_coverage": 0.3571,
         "dataset_size": "8.21 GB",
         "dataset_size_bytes": 8820718572,
-        "dataset_file_count": 16322
+        "dataset_file_count": 16322,
+        "annotated": true
       },
       "norway_test": {
         "n_images": 2040,
@@ -389,7 +399,8 @@
         "annotation_coverage": 0,
         "dataset_size": "2.06 GB",
         "dataset_size_bytes": 2207384233,
-        "dataset_file_count": 2040
+        "dataset_file_count": 2040,
+        "annotated": false
       },
       "united_states_train": {
         "n_images": 4805,
@@ -398,7 +409,8 @@
         "annotation_coverage": 1,
         "dataset_size": "345.09 MB",
         "dataset_size_bytes": 361848622,
-        "dataset_file_count": 9610
+        "dataset_file_count": 9610,
+        "annotated": true
       },
       "united_states_test": {
         "n_images": 1200,
@@ -407,8 +419,13 @@
         "annotation_coverage": 0,
         "dataset_size": "85.05 MB",
         "dataset_size_bytes": 89179879,
-        "dataset_file_count": 1200
+        "dataset_file_count": 1200,
+        "annotated": false
       }
+    },
+    "n_images_in_annotated_splits": 38385,
+    "integrity": {
+      "degenerate_boxes": 1
     }
   },
   "geographic_coverage": {
@@ -465,7 +482,7 @@
     },
     {
       "name": "Hiroya Maeda",
-      "affiliation": "The University of Tokyo",
+      "affiliation": "UrbanX Technologies, Inc.",
       "role": "Dataset Creator"
     },
     {
@@ -484,15 +501,16 @@
       "role": "Dataset Creator"
     }
   ],
-  "license": "CC BY-SA 4.0",
+  "license": "CC BY 4.0",
   "links": {
     "github": "https://github.com/large-road-damage-datalake/rdd2022-object-detection",
-    "download": "https://github.com/sekilab/RoadDamageDetector",
-    "paper": "https://arxiv.org/abs/2209.08538",
-    "homepage": "https://github.com/sekilab/RoadDamageDetector"
+    "download": "https://doi.org/10.6084/m9.figshare.21431547.v1",
+    "paper": "https://doi.org/10.1002/gdj3.260",
+    "homepage": "https://github.com/sekilab/RoadDamageDetector",
+    "doi": "https://doi.org/10.6084/m9.figshare.21431547.v1"
   },
   "citation": {
-    "bibtex": "@article{arya2022rdd2022,\n  title   = {RDD2022: A multi-national image dataset for automatic Road Damage Detection},\n  author  = {Arya, Deeksha and Maeda, Hiroya and Ghosh, Sanjay Kumar and Toshniwal, Durga and Sekimoto, Yoshihide},\n  journal = {arXiv preprint arXiv:2209.08538},\n  year    = {2022},\n  doi     = {10.48550/arXiv.2209.08538},\n  url     = {https://arxiv.org/abs/2209.08538}\n}\n"
+    "bibtex": "@article{arya2024rdd2022,\n  title   = {{RDD2022}: A multi-national image dataset for automatic road damage detection},\n  author  = {Arya, Deeksha and Maeda, Hiroya and Ghosh, Sanjay Kumar and Toshniwal, Durga and Sekimoto, Yoshihide},\n  journal = {Geoscience Data Journal},\n  volume  = {11},\n  number  = {4},\n  pages   = {846--862},\n  year    = {2024},\n  doi     = {10.1002/gdj3.260},\n  note    = {Preprint arXiv:2209.08538. Dataset: doi:10.6084/m9.figshare.21431547.v1}\n}\n"
   },
   "tags": [
     "object-detection",
@@ -502,11 +520,11 @@
     "multi-national"
   ],
   "source_publication": {
-    "dataset_doi": "Not provided",
-    "article_doi": "10.48550/arXiv.2209.08538",
-    "article_title": "RDD2022: A multi-national image dataset for automatic Road Damage Detection",
-    "journal": "arXiv preprint",
-    "year": 2022
+    "dataset_doi": "10.6084/m9.figshare.21431547.v1",
+    "article_doi": "10.1002/gdj3.260",
+    "article_title": "RDD2022: A multi-national image dataset for automatic road damage detection",
+    "journal": "Geoscience Data Journal",
+    "year": 2024
   },
   "class_taxonomy": {
     "version": "road_damage_v2",
